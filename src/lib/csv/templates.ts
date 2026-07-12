@@ -1,0 +1,92 @@
+import type { ImportTemplate } from "../../types/domain";
+
+/** Predefined column-mapping templates for common export formats, per Part 5. */
+export const IMPORT_TEMPLATES: ImportTemplate[] = [
+  {
+    id: "generic-sales",
+    name: "Generic sales CSV",
+    description: "A simple order export with date, product, quantity and revenue.",
+    mapping: {
+      date: "Date",
+      orderId: "Order ID",
+      product: "Product",
+      category: "Category",
+      quantity: "Quantity",
+      revenue: "Revenue",
+      channel: "Channel",
+    },
+  },
+  {
+    id: "etsy-shop-export",
+    name: "Etsy-style shop export",
+    description: "Matches common Etsy order-CSV column names (no live Etsy connection).",
+    mapping: {
+      date: "Sale Date",
+      orderId: "Order ID",
+      product: "Item Name",
+      category: "SKU",
+      quantity: "Quantity",
+      revenue: "Order Total",
+      discount: "Discount Amount",
+      country: "Ship Country",
+      customerName: "Full Name",
+    },
+  },
+  {
+    id: "ecommerce-orders",
+    name: "E-commerce orders",
+    description: "Typical Shopify/WooCommerce-style order export.",
+    mapping: {
+      date: "Created At",
+      orderId: "Order Number",
+      customerId: "Customer ID",
+      product: "Line Item Name",
+      quantity: "Line Item Quantity",
+      revenue: "Total",
+      cost: "Cost Per Item",
+      discount: "Discount Amount",
+      channel: "Sales Channel",
+      region: "Shipping Region",
+      country: "Shipping Country",
+      status: "Financial Status",
+    },
+  },
+  {
+    id: "customer-records",
+    name: "Customer records",
+    description: "A customer roster without transaction line items.",
+    mapping: {
+      customerId: "Customer ID",
+      customerName: "Customer Name",
+      country: "Country",
+      region: "Region",
+      marketingSource: "Acquisition Source",
+    },
+  },
+  {
+    id: "review-data",
+    name: "Review data",
+    description: "Product or order reviews with star rating and free text.",
+    mapping: {
+      date: "Review Date",
+      product: "Product",
+      customerId: "Reviewer ID",
+      rating: "Rating",
+      reviewText: "Review Text",
+    },
+  },
+  {
+    id: "marketing-campaign",
+    name: "Marketing campaign data",
+    description: "Campaign-attributed orders for channel/source performance.",
+    mapping: {
+      date: "Date",
+      orderId: "Order ID",
+      revenue: "Revenue",
+      channel: "Channel",
+      marketingSource: "Source",
+      campaign: "Campaign",
+      discount: "Discount",
+    },
+  },
+];

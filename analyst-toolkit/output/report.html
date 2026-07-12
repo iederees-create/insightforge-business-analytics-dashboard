@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>InsightForge Business Analytics — Summary Report</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; color: #1a1a2e; background: #f7f7fb; }
+  h1 { margin-bottom: 0.2rem; }
+  .subtitle { color: #666; margin-top: 0; }
+  section { background: #fff; border-radius: 10px; padding: 1.25rem 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
+  .kpi { background: #f0f2fa; border-radius: 8px; padding: 0.75rem 1rem; }
+  .kpi-label { font-size: 0.8rem; color: #555; text-transform: uppercase; letter-spacing: 0.03em; }
+  .kpi-value { font-size: 1.5rem; font-weight: 700; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid #eee; }
+  th { background: #f0f2fa; }
+  .caveat { color: #7a5c00; background: #fff8e1; padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.9rem; }
+  pre { white-space: pre-wrap; font-size: 0.85rem; background: #f0f2fa; padding: 1rem; border-radius: 8px; }
+  footer { color: #888; font-size: 0.8rem; margin-top: 2rem; }
+</style>
+</head>
+<body>
+  <h1>InsightForge Business Analytics — Summary Report</h1>
+  <p class="subtitle">Generated 2026-07-12 20:04:15 by generate_report.py (analyst toolkit). Data is synthetic sample data unless a real export was provided.</p>
+
+  
+    <section>
+      <h2>Key Performance Indicators</h2>
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Total Orders</div><div class="kpi-value">6,315</div></div>
+        <div class="kpi"><div class="kpi-label">Total Revenue</div><div class="kpi-value">$598,741.64</div></div>
+        <div class="kpi"><div class="kpi-label">Average Order Value</div><div class="kpi-value">$94.81</div></div>
+        <div class="kpi"><div class="kpi-label">Profit Margin</div><div class="kpi-value">49.3%</div></div>
+      </div>
+    </section>
+    
+  
+    <section>
+      <h2>Top 10 Products by Revenue</h2>
+      <table><thead><tr><th>Product</th><th>Revenue</th></tr></thead><tbody><tr><td>Bamboo Cutting Board</td><td>$27,952.08</td></tr><tr><td>Resistance Bands Set</td><td>$27,610.12</td></tr><tr><td>Gift Wrap Bundle</td><td>$27,502.53</td></tr><tr><td>Ceramic Mug Set</td><td>$27,313.73</td></tr><tr><td>Mechanical Pencil</td><td>$24,392.19</td></tr><tr><td>Vitamin C Serum</td><td>$23,025.81</td></tr><tr><td>Bluetooth Earbuds</td><td>$22,422.06</td></tr><tr><td>Dog Chew Toy</td><td>$21,655.47</td></tr><tr><td>Bamboo Hairbrush</td><td>$20,930.18</td></tr><tr><td>Standing Desk Mat</td><td>$20,117.91</td></tr></tbody></table>
+    </section>
+    
+  
+    <section>
+      <h2>Customer Segments (RFM)</h2>
+      <table><thead><tr><th>Segment</th><th>Customers</th><th>Total Revenue</th></tr></thead><tbody><tr><td>Champions</td><td>487</td><td>$310,563.88</td></tr><tr><td>Loyal Customers</td><td>493</td><td>$142,807.48</td></tr><tr><td>Potential Loyalists</td><td>477</td><td>$87,267.80</td></tr><tr><td>At Risk</td><td>515</td><td>$54,851.46</td></tr><tr><td>Lost</td><td>111</td><td>$3,251.02</td></tr></tbody></table>
+    </section>
+    
+  
+    <section>
+      <h2>Revenue Forecast (Next 30 Days)</h2>
+      <p>Simple linear-trend extrapolation of daily revenue. Projected total for the
+      next 30 days: <strong>$49,215.36</strong>.</p>
+      <p class="caveat">This is a transparent trend extrapolation, not a guarantee of
+      future results. See notebooks/04_forecasting.ipynb for methodology and limitations.</p>
+    </section>
+    
+
+  <section>
+    <h2>Data Cleaning Notes</h2>
+    <pre>Data Cleaning Summary
+======================
+
+- Removed 11 exact duplicate row(s) (kept first occurrence).
+- No invalid negative values found in quantity/revenue/cost/discount/rating.
+- Missing values detected (left as-is; not auto-filled to avoid inventing data):
+    - 'campaign': 3831 missing (60.6% of rows)
+    - 'region': 6 missing (0.1% of rows)
+    - 'marketingSource': 4 missing (0.1% of rows)
+    - 'discount': 3 missing (0.0% of rows)
+    - 'channel': 2 missing (0.0% of rows)
+- Statistical outliers detected via IQR method (reported only, not removed):
+    - 'quantity': 201 value(s) outside [-0.5, 3.5]
+    - 'revenue': 580 value(s) outside [-39.06, 185.38]
+    - 'cost': 507 value(s) outside [-20.03, 94.18]
+    - 'profit': 442 value(s) outside [-30.52, 105.58]
+    - 'discount': 615 value(s) outside [-0.08, 0.12]
+  Outliers are left in the cleaned data by default -- in real business data these are often legitimate large orders, not errors. Review manually before excluding.
+
+Rows before cleaning: 6326
+Rows after cleaning:  6315</pre>
+  </section>
+
+  <footer>InsightForge Business Analytics Studio — Python Analyst Toolkit. No external API calls were made to generate this report.</footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+INSIGHTFORGE BUSINESS ANALYTICS STUDIO — END-USER LICENSE
+
+Copyright (c) 2026 Iederees Francis. All rights reserved.
+
+This is a digital software product licensed, not sold. Purchasing a copy of
+InsightForge Business Analytics Studio ("the Software") through an authorized
+listing grants you the following non-exclusive, non-transferable license:
+
+1. GRANT OF LICENSE
+   You may install, run, and modify the Software for use by a single business
+   or individual (yourself, or one client project at a time if you are a
+   freelancer/agency). You may deploy the Software (including modified
+   versions) for that single business's own internal or customer-facing use,
+   including on that business's own websites and internal tools.
+
+2. PERMITTED USE
+   - Use, run, and customise the Software for your own business or one
+     client engagement at a time.
+   - Modify the source code to fit your needs.
+   - Deploy the built application on your own or your client's hosting.
+
+3. RESTRICTIONS
+   You may NOT:
+   - Resell, sublicense, or redistribute the Software's source code, in
+     original or modified form, as a standalone product or template.
+   - Use the Software to build a directly competing product or template for
+     resale.
+   - Remove this license file from redistributed builds you deploy for
+     clients.
+   - Claim authorship of the underlying source code.
+   - Use the University of Cape Town's name, logo, or seal in connection
+     with any use or redistribution of this Software.
+
+4. MULTIPLE PROJECTS / AGENCIES
+   Each additional client project requires either an additional license
+   purchase or the explicit multi-use terms stated on the original listing,
+   if any.
+
+5. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. ANALYTICS, FORECASTS,
+   SENTIMENT ESTIMATES, AND SCENARIO CALCULATIONS ARE PROVIDED FOR INFORMATIONAL
+   PURPOSES ONLY AND ARE NOT GUARANTEES OF BUSINESS OUTCOMES.
+
+6. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+   LIABILITY ARISING FROM THE USE OF THE SOFTWARE OR DECISIONS MADE BASED ON
+   ITS OUTPUT.
+
+7. THIRD-PARTY COMPONENTS
+   The Software includes open-source dependencies (React, Vite, Zustand,
+   Papa Parse, D3 modules, Tailwind CSS, and others), each under its own
+   license (see `package.json` / each package's own LICENSE file). Those
+   licenses govern use of those individual components.
+
+8. TERMINATION
+   This license terminates automatically if you violate its terms. Upon
+   termination you must cease use and delete all copies of the Software.
+
+For licensing questions, see `docs/SUPPORT.md` for contact information.

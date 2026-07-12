@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python Analyst Toolkit
+analyst-toolkit/.venv
+analyst-toolkit/__pycache__
+analyst-toolkit/**/__pycache__
+analyst-toolkit/.pytest_cache
+analyst-toolkit/.ipynb_checkpoints
+analyst-toolkit/**/.ipynb_checkpoints
+
+# Coverage output
+coverage
+.env
+.env.local
+
+# Local Claude Code settings (machine-specific, not part of the product)
+.claude/
