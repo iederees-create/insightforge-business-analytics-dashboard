@@ -3,8 +3,11 @@ import type { DragEvent } from "react";
 import { parseDelimitedFile, parseJsonFile, FileTooLargeError, MAX_FILE_SIZE_BYTES } from "../../lib/csv/parse";
 import { useDatasetStore } from "../../store/datasetStore";
 import { Button } from "../common/Button";
+import { COLUMN_ROLES, type ColumnMapping } from "../../types/domain";
+import Papa from "papaparse";
 
 const MAX_FILE_SIZE_MB = MAX_FILE_SIZE_BYTES / (1024 * 1024);
+const DEMO_DATA_URL = `${import.meta.env.BASE_URL}sample-data/synthetic-demo-orders.csv`;
 
 /** Step 1 of the import wizard: drag/drop or file-picker upload, parsed entirely client-side. */
 export function UploadStep() {
@@ -59,6 +62,39 @@ export function UploadStep() {
 
   const onCancel = () => {
     abortControllerRef.current?.abort();
+  };
+
+  const [isLoadingDemo, setIsLoadingDemo] = useState(false);
+
+  /**
+   * Loads the bundled synthetic demo dataset (Part 16). Its column headers are the
+   * exact canonical role names (see scripts/build-demo-data.mjs), so the mapping is
+   * a direct identity map rather than relying on the fuzzy auto-detect heuristic —
+   * this keeps the guided-tour path fully deterministic.
+   */
+  const loadDemoData = async () => {
+    setError(null);
+    setWarnings([]);
+    setIsLoadingDemo(true);
+    try {
+      const response = await fetch(DEMO_DATA_URL);
+      if (!response.ok) throw new Error(`Demo dataset request failed (${response.status}).`);
+      const text = await response.text();
+      const parsed = Papa.parse<Record<string, string>>(text, { header: true, skipEmptyLines: "greedy" });
+      const headers = parsed.meta.fields ?? [];
+      const identityMapping: ColumnMapping = {};
+      for (const role of COLUMN_ROLES) {
+        if (headers.includes(role)) identityMapping[role] = role;
+      }
+      const store = useDatasetStore.getState();
+      store.setImportedFile("Synthetic demonstration data.csv", headers, parsed.data);
+      store.setMapping(identityMapping);
+      store.confirmMapping();
+    } catch (err: unknown) {
+      setError(err instanceof Error ? `Could not load the demo dataset: ${err.message}` : "Could not load the demo dataset.");
+    } finally {
+      setIsLoadingDemo(false);
+    }
   };
 
   return (
@@ -120,6 +156,17 @@ export function UploadStep() {
           {warning}
         </p>
       ))}
+
+      <div className="mt-6 border-t border-border pt-4">
+        <p className="text-sm text-text-muted">
+          Don't have a file handy? Explore every feature with a{" "}
+          <strong className="text-text">synthetic demonstration dataset</strong> — entirely fictional data with realistic
+          trends, a few messy rows, and repeat customers, generated for this product.
+        </p>
+        <Button variant="secondary" onClick={() => void loadDemoData()} disabled={isLoadingDemo} className="mt-2">
+          {isLoadingDemo ? "Loading demo data…" : "Try the synthetic demo dataset"}
+        </Button>
+      </div>
     </section>
   );
 }
