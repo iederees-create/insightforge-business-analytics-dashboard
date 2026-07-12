@@ -57,7 +57,12 @@ export function parseDelimitedFile(
       header: true,
       skipEmptyLines: "greedy",
       delimiter: detectDelimiter(file.name),
-      worker: true,
+      // worker: true is intentionally NOT used here: under Vite's ESM bundling, Papa Parse's
+      // worker script self-duplication (it fetches its own <script> URL to spawn the worker)
+      // does not resolve correctly and the parse silently never completes. Chunked parsing on
+      // the main thread still yields between chunks, and the 50MB/250k-row cap in this module
+      // keeps worst-case blocking bounded, so correctness wins over the (currently broken)
+      // worker path. Verified via a real browser upload that hung indefinitely with worker: true.
       chunk: (results, chunkParser) => {
         activeParser = chunkParser;
         if (!headers.length) headers = results.meta.fields ?? [];
