@@ -20,7 +20,7 @@ export function Shell({ activeSection, onSelectSection, onStartTour, children }:
     <div className="min-h-screen bg-bg text-text">
       <a
         href="#main-content"
-        className="sr-only-focusable fixed left-2 top-2 z-50 rounded-md bg-accent px-3 py-2 text-sm font-medium text-white"
+        className="sr-only sr-only-focusable z-50 rounded-md bg-accent px-3 py-2 text-sm font-medium text-white"
       >
         Skip to content
       </a>
