@@ -38,3 +38,7 @@ coverage
 
 # Local Claude Code settings (machine-specific, not part of the product)
 .claude/
+
+# The commercial buyer package (sold on Etsy) must not be given away for free
+# in this public demo repo — kept locally / in the private product pack only.
+seller-pack/
