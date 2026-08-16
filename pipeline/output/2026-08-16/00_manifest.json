@@ -1,0 +1,21 @@
+{
+  "logicalDate": "2026-08-16",
+  "outputDir": "/home/iedrees/Workspace/data-products/insightforge-business-analytics-dashboard/pipeline/output/2026-08-16",
+  "files": {
+    "sales": {
+      "path": "/home/iedrees/Workspace/data-products/insightforge-business-analytics-dashboard/pipeline/sample_data/sales.csv",
+      "rows": 1513,
+      "sha256": "ed0f7f64fd84a021e0c32571594f06dd6cfc31024ee5976da2459d2e97cb451c"
+    },
+    "customers": {
+      "path": "/home/iedrees/Workspace/data-products/insightforge-business-analytics-dashboard/pipeline/sample_data/customers.csv",
+      "rows": 400,
+      "sha256": "42f714f0996ff998d31fcdefe8ac639662e61e89eebbfd8ad5d6ce6117c296b5"
+    },
+    "reviews": {
+      "path": "/home/iedrees/Workspace/data-products/insightforge-business-analytics-dashboard/pipeline/sample_data/reviews.csv",
+      "rows": 250,
+      "sha256": "49b75b4644db136be6502b2bc14330603d99c720ed9a62a700189c991c48569f"
+    }
+  }
+}

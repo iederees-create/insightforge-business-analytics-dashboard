@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1510 280" font-family="system-ui, sans-serif" font-size="12">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#4338ca"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="208.0" y1="140" x2="460.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="208.0" y1="140" x2="250.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="418.0" y1="140" x2="460.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="418.0" y1="140" x2="1300.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="628.0" y1="140" x2="1300.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="628.0" y1="140" x2="670.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="838.0" y1="140" x2="880.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="838.0" y1="140" x2="1090.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="838.0" y1="140" x2="1300.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="1048.0" y1="140" x2="1090.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="1048.0" y1="140" x2="1300.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="1258.0" y1="140" x2="1300.0" y2="140" stroke="#4338ca" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="40.0" y="112.0" width="168" height="56" rx="8" fill="#eef2ff" stroke="#4338ca" stroke-width="1.5"/>
+<text x="124" y="140" text-anchor="middle" dominant-baseline="middle" fill="#1e1b4b">discover inputs</text>
+<rect x="250.0" y="112.0" width="168" height="56" rx="8" fill="#eef2ff" stroke="#4338ca" stroke-width="1.5"/>
+<text x="334" y="140" text-anchor="middle" dominant-baseline="middle" fill="#1e1b4b">validate schema</text>
+<rect x="460.0" y="112.0" width="168" height="56" rx="8" fill="#eef2ff" stroke="#4338ca" stroke-width="1.5"/>
+<text x="544" y="140" text-anchor="middle" dominant-baseline="middle" fill="#1e1b4b">clean and deduplicate</text>
+<rect x="670.0" y="112.0" width="168" height="56" rx="8" fill="#eef2ff" stroke="#4338ca" stroke-width="1.5"/>
+<text x="754" y="140" text-anchor="middle" dominant-baseline="middle" fill="#1e1b4b">join datasets</text>
+<rect x="880.0" y="112.0" width="168" height="56" rx="8" fill="#eef2ff" stroke="#4338ca" stroke-width="1.5"/>
+<text x="964" y="140" text-anchor="middle" dominant-baseline="middle" fill="#1e1b4b">calculate metrics</text>
+<rect x="1090.0" y="112.0" width="168" height="56" rx="8" fill="#eef2ff" stroke="#4338ca" stroke-width="1.5"/>
+<text x="1174" y="140" text-anchor="middle" dominant-baseline="middle" fill="#1e1b4b">export dashboard data</text>
+<rect x="1300.0" y="112.0" width="168" height="56" rx="8" fill="#eef2ff" stroke="#4338ca" stroke-width="1.5"/>
+<text x="1384" y="140" text-anchor="middle" dominant-baseline="middle" fill="#1e1b4b">generate quality report</text>
+<text x="20" y="265" fill="#6b7280" font-size="10">Generated from the live DAG's actual task_dict/downstream_task_ids via Airflow's DagBag - not a hand-drawn mockup, not an Airflow Graph-view UI screenshot.</text>
+</svg>

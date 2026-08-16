@@ -1,0 +1,7 @@
+{
+  "logicalDate": "2026-08-16",
+  "outputDir": "/home/iedrees/Workspace/data-products/insightforge-business-analytics-dashboard/pipeline/output/2026-08-16",
+  "joinedPath": "/home/iedrees/Workspace/data-products/insightforge-business-analytics-dashboard/pipeline/output/2026-08-16/03_joined_dataset.csv",
+  "rowCount": 1506,
+  "unmatchedCustomerRows": 33
+}

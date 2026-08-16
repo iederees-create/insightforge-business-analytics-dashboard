@@ -1,0 +1,77 @@
+{
+  "logicalDate": "2026-08-16",
+  "score": 92,
+  "totalRowsAcrossInputs": 2163,
+  "rowsAfterCleaning": {
+    "sales": 1513,
+    "customers": 400,
+    "reviews": 250
+  },
+  "joinedRowCount": 1506,
+  "dashboardExportRowCount": 1506,
+  "kpiSummary": {
+    "revenue": 289656.41,
+    "orders": 1500,
+    "profitMargin": 0.5313,
+    "uniqueCustomers": 394,
+    "topProduct": "Scented Soy Candle"
+  },
+  "issues": [
+    {
+      "id": "duplicate-order-ids-reviews",
+      "title": "Duplicate order IDs with differing row content in reviews.csv",
+      "severity": "high",
+      "count": 20,
+      "suggestion": "Flagged for manual review, not auto-removed - may be legitimate multi-line orders. See 02_dedupe_report.json for the affected order IDs."
+    },
+    {
+      "id": "missing-sales-revenue",
+      "title": "Missing values in sales.revenue",
+      "severity": "high",
+      "count": 16,
+      "suggestion": "Rows with a blank revenue in sales.csv are excluded from calculations that depend on it."
+    },
+    {
+      "id": "duplicate-order-ids-sales",
+      "title": "Duplicate order IDs with differing row content in sales.csv",
+      "severity": "high",
+      "count": 6,
+      "suggestion": "Flagged for manual review, not auto-removed - may be legitimate multi-line orders. See 02_dedupe_report.json for the affected order IDs."
+    },
+    {
+      "id": "missing-sales-date",
+      "title": "Missing values in sales.date",
+      "severity": "high",
+      "count": 2,
+      "suggestion": "Rows with a blank date in sales.csv are excluded from calculations that depend on it."
+    },
+    {
+      "id": "missing-sales-campaign",
+      "title": "Missing values in sales.campaign",
+      "severity": "medium",
+      "count": 371,
+      "suggestion": "Rows with a blank campaign in sales.csv are excluded from calculations that depend on it."
+    },
+    {
+      "id": "unmatched-customers",
+      "title": "Sales rows referencing a customer not present in customers.csv",
+      "severity": "medium",
+      "count": 33,
+      "suggestion": "These sales rows still appear in the joined dataset but have no matching customer profile - verify customers.csv is complete."
+    },
+    {
+      "id": "dedup-sales",
+      "title": "Exact duplicate rows removed from sales.csv",
+      "severity": "medium",
+      "count": 7,
+      "suggestion": "Exact duplicate rows were detected and removed automatically during cleaning."
+    },
+    {
+      "id": "type-violation-sales-date",
+      "title": "Unparseable date values in sales.date",
+      "severity": "medium",
+      "count": 4,
+      "suggestion": "These date values in sales.csv could not be parsed and are treated as missing, not zero."
+    }
+  ]
+}

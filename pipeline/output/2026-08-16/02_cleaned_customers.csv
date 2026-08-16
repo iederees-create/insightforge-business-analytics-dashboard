@@ -1,0 +1,401 @@
+customerId,customerName,region,country,latitude,longitude,signupDate
+CUST-00001,Customer 00001,Western Cape,South Africa,-59.2222,91.8041,2023-01-23
+CUST-00002,Customer 00002,Western Cape,South Africa,-57.4144,94.863,2025-02-24
+CUST-00003,Customer 00003,Western Cape,South Africa,1.674,75.1101,2023-03-16
+CUST-00004,Customer 00004,California,United States,-17.58,9.3492,2024-11-16
+CUST-00005,Customer 00005,New South Wales,Australia,20.8965,-105.3564,2023-01-31
+CUST-00006,Customer 00006,New South Wales,Australia,-15.1537,113.7389,2024-01-15
+CUST-00007,Customer 00007,Greater London,United Kingdom,-7.9649,18.5935,2024-11-28
+CUST-00008,Customer 00008,Western Cape,South Africa,12.2316,114.6711,2025-07-21
+CUST-00009,Customer 00009,New South Wales,Australia,-8.2899,77.4551,2025-03-22
+CUST-00010,Customer 00010,Greater London,United Kingdom,26.852,-1.4319,2023-01-13
+CUST-00011,Customer 00011,Gauteng,South Africa,-44.4392,-71.6477,2023-04-02
+CUST-00012,Customer 00012,Gauteng,South Africa,24.1902,-26.2741,2024-11-10
+CUST-00013,Customer 00013,New South Wales,Australia,1.779,-100.2058,2023-12-25
+CUST-00014,Customer 00014,Ontario,Canada,44.1846,-26.9887,2026-01-13
+CUST-00015,Customer 00015,California,United States,-46.9709,-6.5184,2024-07-31
+CUST-00016,Customer 00016,Gauteng,South Africa,43.3186,-17.4364,2025-11-04
+CUST-00017,Customer 00017,Ontario,Canada,-47.6347,-2.9124,2024-11-11
+CUST-00018,Customer 00018,California,United States,51.0604,-72.5514,2023-08-09
+CUST-00019,Customer 00019,California,United States,-19.3447,-15.1895,2026-03-17
+CUST-00020,Customer 00020,Ontario,Canada,35.2637,3.3135,2024-03-18
+CUST-00021,Customer 00021,Greater London,United Kingdom,38.4305,62.6739,2024-10-02
+CUST-00022,Customer 00022,California,United States,36.4653,57.528,2024-03-21
+CUST-00023,Customer 00023,Western Cape,South Africa,31.6649,-5.3961,2024-11-23
+CUST-00024,Customer 00024,California,United States,-11.1167,-28.6827,2025-05-21
+CUST-00025,Customer 00025,Greater London,United Kingdom,21.4081,-80.3305,2023-01-29
+CUST-00026,Customer 00026,Western Cape,South Africa,48.1077,-7.5596,2024-09-25
+CUST-00027,Customer 00027,Greater London,United Kingdom,-28.4942,-66.9823,2023-09-23
+CUST-00028,Customer 00028,Western Cape,South Africa,3.8299,-34.3012,2025-05-30
+CUST-00029,Customer 00029,California,United States,9.162,-103.1332,2023-01-12
+CUST-00030,Customer 00030,Gauteng,South Africa,36.6369,-110.4229,2023-07-09
+CUST-00031,Customer 00031,New South Wales,Australia,-39.143,-63.4489,2025-12-25
+CUST-00032,Customer 00032,California,United States,38.0049,84.7073,2024-08-02
+CUST-00033,Customer 00033,Western Cape,South Africa,6.7591,-2.612,2025-05-19
+CUST-00034,Customer 00034,Western Cape,South Africa,5.15,-37.2967,2025-09-24
+CUST-00035,Customer 00035,Greater London,United Kingdom,59.6618,-57.132,2024-02-19
+CUST-00036,Customer 00036,Ontario,Canada,-32.0501,32.6123,2023-08-06
+CUST-00037,Customer 00037,California,United States,0.3206,-71.4067,2023-01-27
+CUST-00038,Customer 00038,Western Cape,South Africa,44.5372,-1.8963,2024-11-25
+CUST-00039,Customer 00039,Ontario,Canada,16.2527,103.9871,2023-10-11
+CUST-00040,Customer 00040,Gauteng,South Africa,27.5789,-14.2995,2023-06-24
+CUST-00041,Customer 00041,Gauteng,South Africa,4.4443,28.3665,2023-09-01
+CUST-00042,Customer 00042,California,United States,12.9557,-59.2589,2025-01-12
+CUST-00043,Customer 00043,California,United States,-28.366,58.339,2026-04-06
+CUST-00044,Customer 00044,Western Cape,South Africa,15.5809,-70.8166,2025-09-13
+CUST-00045,Customer 00045,New South Wales,Australia,13.8318,-73.659,2024-12-25
+CUST-00046,Customer 00046,Greater London,United Kingdom,2.1608,67.0125,2026-03-16
+CUST-00047,Customer 00047,Western Cape,South Africa,-41.0007,-47.2412,2023-08-12
+CUST-00048,Customer 00048,Ontario,Canada,-11.5695,13.0762,2025-09-03
+CUST-00049,Customer 00049,California,United States,33.166,-75.0068,2023-07-25
+CUST-00050,Customer 00050,California,United States,-11.6212,-44.7667,2024-03-07
+CUST-00051,Customer 00051,Gauteng,South Africa,-10.6607,59.3689,2023-05-26
+CUST-00052,Customer 00052,Greater London,United Kingdom,23.1013,103.7117,2026-01-23
+CUST-00053,Customer 00053,California,United States,-6.5086,31.1146,2025-02-16
+CUST-00054,Customer 00054,Greater London,United Kingdom,14.5924,30.0024,2024-01-13
+CUST-00055,Customer 00055,Greater London,United Kingdom,-21.6586,-41.9834,2025-06-25
+CUST-00056,Customer 00056,Greater London,United Kingdom,-30.6665,13.1292,2024-08-11
+CUST-00057,Customer 00057,Greater London,United Kingdom,-46.1608,-102.4794,2023-12-31
+CUST-00058,Customer 00058,California,United States,44.3632,-96.3663,2024-12-24
+CUST-00059,Customer 00059,New South Wales,Australia,23.1557,-19.3361,2025-07-16
+CUST-00060,Customer 00060,Gauteng,South Africa,50.2666,-43.3519,2023-08-29
+CUST-00061,Customer 00061,Ontario,Canada,18.2414,-119.6639,2024-05-03
+CUST-00062,Customer 00062,New South Wales,Australia,-44.5363,-85.6989,2024-02-29
+CUST-00063,Customer 00063,Gauteng,South Africa,-51.9736,80.2139,2025-06-24
+CUST-00064,Customer 00064,Ontario,Canada,-20.751,29.4316,2023-07-21
+CUST-00065,Customer 00065,Western Cape,South Africa,-37.9903,93.7311,2023-01-25
+CUST-00066,Customer 00066,Greater London,United Kingdom,-35.6263,-19.872,2023-03-03
+CUST-00067,Customer 00067,Greater London,United Kingdom,-8.6537,64.6123,2023-08-15
+CUST-00068,Customer 00068,New South Wales,Australia,26.4274,104.541,2023-03-20
+CUST-00069,Customer 00069,New South Wales,Australia,8.8924,-47.3353,2025-12-10
+CUST-00070,Customer 00070,Greater London,United Kingdom,-51.9419,-7.1004,2025-05-08
+CUST-00071,Customer 00071,Gauteng,South Africa,-9.8568,64.6802,2024-04-13
+CUST-00072,Customer 00072,New South Wales,Australia,-27.7153,-38.1109,2023-12-14
+CUST-00073,Customer 00073,Western Cape,South Africa,-44.4786,-15.7016,2024-02-05
+CUST-00074,Customer 00074,California,United States,-28.8763,14.1492,2025-08-09
+CUST-00075,Customer 00075,Ontario,Canada,-52.3874,-79.8433,2025-09-29
+CUST-00076,Customer 00076,New South Wales,Australia,52.0266,59.727,2025-12-18
+CUST-00077,Customer 00077,Gauteng,South Africa,-59.7656,99.523,2024-01-07
+CUST-00078,Customer 00078,Greater London,United Kingdom,33.4645,-42.5394,2023-08-20
+CUST-00079,Customer 00079,New South Wales,Australia,58.3937,20.5035,2024-03-06
+CUST-00080,Customer 00080,Western Cape,South Africa,16.1129,-62.954,2025-05-29
+CUST-00081,Customer 00081,Gauteng,South Africa,48.9325,-12.0905,2025-02-06
+CUST-00082,Customer 00082,Ontario,Canada,-42.1546,-3.1842,2025-12-02
+CUST-00083,Customer 00083,California,United States,43.8413,-97.2639,2023-08-04
+CUST-00084,Customer 00084,New South Wales,Australia,38.7631,-62.9091,2024-06-20
+CUST-00085,Customer 00085,Greater London,United Kingdom,45.8916,-110.8614,2024-03-27
+CUST-00086,Customer 00086,California,United States,35.3634,39.4316,2026-01-29
+CUST-00087,Customer 00087,New South Wales,Australia,-0.9381,-9.2445,2026-01-02
+CUST-00088,Customer 00088,Gauteng,South Africa,40.8827,-9.209,2023-02-11
+CUST-00089,Customer 00089,Gauteng,South Africa,21.4935,32.9346,2024-06-22
+CUST-00090,Customer 00090,Western Cape,South Africa,23.6504,-45.3515,2026-01-24
+CUST-00091,Customer 00091,California,United States,-34.179,62.6985,2023-03-02
+CUST-00092,Customer 00092,Ontario,Canada,-9.1621,-97.9451,2026-03-02
+CUST-00093,Customer 00093,Ontario,Canada,-12.072,-12.1177,2025-06-30
+CUST-00094,Customer 00094,Ontario,Canada,36.3487,-69.0045,2023-08-07
+CUST-00095,Customer 00095,Greater London,United Kingdom,40.1775,-93.807,2023-03-29
+CUST-00096,Customer 00096,Greater London,United Kingdom,18.4893,13.3663,2024-07-04
+CUST-00097,Customer 00097,Western Cape,South Africa,38.5113,13.129,2025-04-27
+CUST-00098,Customer 00098,New South Wales,Australia,-9.0745,4.3865,2026-03-10
+CUST-00099,Customer 00099,Western Cape,South Africa,52.1181,39.3567,2026-04-02
+CUST-00100,Customer 00100,New South Wales,Australia,10.2047,-73.5822,2023-08-06
+CUST-00101,Customer 00101,Gauteng,South Africa,-14.2998,-100.9188,2025-07-03
+CUST-00102,Customer 00102,Western Cape,South Africa,9.8952,85.1998,2023-01-29
+CUST-00103,Customer 00103,Greater London,United Kingdom,-30.644,-57.289,2024-11-12
+CUST-00104,Customer 00104,New South Wales,Australia,5.7335,-22.7839,2025-09-16
+CUST-00105,Customer 00105,Gauteng,South Africa,43.345,-115.9162,2023-06-15
+CUST-00106,Customer 00106,California,United States,36.5162,-28.1527,2025-09-14
+CUST-00107,Customer 00107,California,United States,18.2454,-23.7472,2026-03-25
+CUST-00108,Customer 00108,Gauteng,South Africa,-36.3012,-72.4445,2024-10-28
+CUST-00109,Customer 00109,California,United States,58.1555,65.7374,2024-09-10
+CUST-00110,Customer 00110,California,United States,21.9215,11.3201,2023-07-25
+CUST-00111,Customer 00111,Ontario,Canada,26.3172,-55.4288,2023-12-07
+CUST-00112,Customer 00112,Ontario,Canada,-39.8272,-8.8792,2025-08-13
+CUST-00113,Customer 00113,New South Wales,Australia,18.4428,1.5668,2023-02-02
+CUST-00114,Customer 00114,Western Cape,South Africa,-38.3264,16.7811,2023-05-05
+CUST-00115,Customer 00115,Greater London,United Kingdom,-1.9848,-109.4072,2023-04-18
+CUST-00116,Customer 00116,Ontario,Canada,-20.8143,25.3451,2025-06-14
+CUST-00117,Customer 00117,New South Wales,Australia,57.1963,-53.0905,2024-09-14
+CUST-00118,Customer 00118,Ontario,Canada,-20.8336,-26.2867,2025-11-21
+CUST-00119,Customer 00119,Western Cape,South Africa,-22.7491,-9.7746,2024-01-05
+CUST-00120,Customer 00120,Western Cape,South Africa,51.1143,65.9741,2025-12-21
+CUST-00121,Customer 00121,Ontario,Canada,10.17,94.2054,2023-03-30
+CUST-00122,Customer 00122,New South Wales,Australia,0.0,0.0,2024-11-04
+CUST-00123,Customer 00123,Ontario,Canada,-12.3414,-95.3513,2024-07-02
+CUST-00124,Customer 00124,Gauteng,South Africa,-44.5206,105.7831,2023-06-11
+CUST-00125,Customer 00125,Western Cape,South Africa,-4.995,-32.4155,2023-04-14
+CUST-00126,Customer 00126,Gauteng,South Africa,-42.3914,-30.9598,2023-07-08
+CUST-00127,Customer 00127,Ontario,Canada,0.0,0.0,2024-11-28
+CUST-00128,Customer 00128,New South Wales,Australia,0.0,0.0,2024-02-17
+CUST-00129,Customer 00129,Ontario,Canada,-35.8583,4.9218,2023-11-24
+CUST-00130,Customer 00130,California,United States,-49.8559,107.1897,2025-04-14
+CUST-00131,Customer 00131,New South Wales,Australia,27.0451,-73.9791,2023-09-28
+CUST-00132,Customer 00132,Western Cape,South Africa,0.0,0.0,2024-02-26
+CUST-00133,Customer 00133,California,United States,30.6934,71.6629,2024-04-13
+CUST-00134,Customer 00134,Western Cape,South Africa,19.1138,59.9532,2024-10-23
+CUST-00135,Customer 00135,Gauteng,South Africa,-11.8955,10.2469,2025-07-16
+CUST-00136,Customer 00136,Greater London,United Kingdom,32.7478,-37.5005,2023-11-26
+CUST-00137,Customer 00137,Ontario,Canada,18.5629,-91.1928,2025-03-12
+CUST-00138,Customer 00138,Ontario,Canada,37.6571,-15.3628,2024-09-21
+CUST-00139,Customer 00139,New South Wales,Australia,21.7894,45.9192,2025-08-21
+CUST-00140,Customer 00140,Western Cape,South Africa,9.2585,38.622,2026-02-06
+CUST-00141,Customer 00141,Gauteng,South Africa,57.2084,-5.6395,2023-01-01
+CUST-00142,Customer 00142,Gauteng,South Africa,-41.4095,9.9768,2023-08-25
+CUST-00143,Customer 00143,Western Cape,South Africa,38.3886,-62.3391,2024-08-07
+CUST-00144,Customer 00144,California,United States,-38.91,-102.9696,2023-10-21
+CUST-00145,Customer 00145,Greater London,United Kingdom,46.834,-115.2699,2025-06-19
+CUST-00146,Customer 00146,Gauteng,South Africa,37.9521,102.9997,2024-11-18
+CUST-00147,Customer 00147,New South Wales,Australia,23.9677,-3.5169,2024-03-28
+CUST-00148,Customer 00148,Ontario,Canada,57.7094,-117.7706,2025-05-22
+CUST-00149,Customer 00149,New South Wales,Australia,0.0,0.0,2024-04-11
+CUST-00150,Customer 00150,Gauteng,South Africa,-0.5157,-66.0705,2025-09-08
+CUST-00151,Customer 00151,Greater London,United Kingdom,-9.0406,-75.6364,2025-02-20
+CUST-00152,Customer 00152,Greater London,United Kingdom,25.822,-100.1435,2024-10-14
+CUST-00153,Customer 00153,Greater London,United Kingdom,-44.641,-82.7748,2023-05-16
+CUST-00154,Customer 00154,Greater London,United Kingdom,45.0941,-38.5475,2025-03-08
+CUST-00155,Customer 00155,New South Wales,Australia,11.3502,-92.7088,2025-12-23
+CUST-00156,Customer 00156,Gauteng,South Africa,-2.9325,-73.4651,2023-12-26
+CUST-00157,Customer 00157,Gauteng,South Africa,-35.8887,26.6015,2024-12-22
+CUST-00158,Customer 00158,New South Wales,Australia,46.6195,23.2765,2023-07-03
+CUST-00159,Customer 00159,Ontario,Canada,55.9014,119.2986,2023-07-19
+CUST-00160,Customer 00160,Gauteng,South Africa,-43.5437,68.9195,2023-01-12
+CUST-00161,Customer 00161,Greater London,United Kingdom,13.1779,-20.5206,2024-09-05
+CUST-00162,Customer 00162,New South Wales,Australia,45.2436,-30.6516,2024-11-23
+CUST-00163,Customer 00163,Ontario,Canada,27.8399,38.4755,2025-11-01
+CUST-00164,Customer 00164,Western Cape,South Africa,0.0,0.0,2024-09-24
+CUST-00165,Customer 00165,California,United States,57.1565,109.8012,2025-05-11
+CUST-00166,Customer 00166,Greater London,United Kingdom,-27.6436,-56.4013,2025-02-25
+CUST-00167,Customer 00167,Western Cape,South Africa,-20.214,64.635,2024-07-04
+CUST-00168,Customer 00168,New South Wales,Australia,20.096,18.5839,2024-04-02
+CUST-00169,Customer 00169,New South Wales,Australia,0.0,0.0,2025-04-11
+CUST-00170,Customer 00170,California,United States,35.9659,-46.8699,2025-01-27
+CUST-00171,Customer 00171,California,United States,56.3092,48.9437,2025-09-23
+CUST-00172,Customer 00172,New South Wales,Australia,23.2846,-72.3408,2025-07-02
+CUST-00173,Customer 00173,Greater London,United Kingdom,-19.3338,-8.8489,2025-05-07
+CUST-00174,Customer 00174,Ontario,Canada,48.4466,98.3487,2024-09-19
+CUST-00175,Customer 00175,California,United States,9.9493,-111.9642,2024-12-23
+CUST-00176,Customer 00176,New South Wales,Australia,-50.4314,41.8495,2024-07-23
+CUST-00177,Customer 00177,New South Wales,Australia,42.9327,41.9509,2025-08-03
+CUST-00178,Customer 00178,Western Cape,South Africa,5.9489,82.2179,2024-04-23
+CUST-00179,Customer 00179,Greater London,United Kingdom,-15.0841,-52.3189,2025-12-13
+CUST-00180,Customer 00180,Ontario,Canada,-45.3938,26.0465,2025-07-05
+CUST-00181,Customer 00181,Western Cape,South Africa,37.3816,-55.7601,2024-06-02
+CUST-00182,Customer 00182,Gauteng,South Africa,-51.3171,75.7974,2025-12-12
+CUST-00183,Customer 00183,Ontario,Canada,25.2213,-74.2227,2025-03-17
+CUST-00184,Customer 00184,Western Cape,South Africa,-3.2828,24.6232,2024-04-25
+CUST-00185,Customer 00185,California,United States,-48.1336,100.7163,2024-01-03
+CUST-00186,Customer 00186,Gauteng,South Africa,0.0,0.0,2023-06-16
+CUST-00187,Customer 00187,Gauteng,South Africa,0.0,0.0,2024-02-25
+CUST-00188,Customer 00188,Ontario,Canada,-53.3632,-89.3607,2023-05-27
+CUST-00189,Customer 00189,Greater London,United Kingdom,27.6875,-96.7557,2025-05-10
+CUST-00190,Customer 00190,Gauteng,South Africa,52.9417,75.6092,2025-01-28
+CUST-00191,Customer 00191,Greater London,United Kingdom,50.5583,-29.3866,2025-06-26
+CUST-00192,Customer 00192,California,United States,40.7935,37.028,2023-09-29
+CUST-00193,Customer 00193,Greater London,United Kingdom,50.5615,75.4261,2024-02-06
+CUST-00194,Customer 00194,Gauteng,South Africa,6.3771,-68.8606,2023-08-03
+CUST-00195,Customer 00195,Greater London,United Kingdom,-40.0271,-103.4376,2024-09-30
+CUST-00196,Customer 00196,California,United States,24.5903,-36.1351,2025-08-06
+CUST-00197,Customer 00197,New South Wales,Australia,55.4099,-109.8813,2025-04-13
+CUST-00198,Customer 00198,California,United States,-21.4963,-77.2787,2025-05-26
+CUST-00199,Customer 00199,Western Cape,South Africa,-6.3043,58.4239,2024-09-28
+CUST-00200,Customer 00200,New South Wales,Australia,0.0,0.0,2024-03-11
+CUST-00201,Customer 00201,Ontario,Canada,-2.6434,27.1123,2023-01-10
+CUST-00202,Customer 00202,Gauteng,South Africa,-22.6039,28.3549,2025-06-01
+CUST-00203,Customer 00203,Ontario,Canada,34.7133,52.9685,2024-07-24
+CUST-00204,Customer 00204,Ontario,Canada,38.5338,67.5828,2023-11-02
+CUST-00205,Customer 00205,New South Wales,Australia,-3.2738,-43.596,2024-01-31
+CUST-00206,Customer 00206,Western Cape,South Africa,-52.0672,114.7667,2024-01-20
+CUST-00207,Customer 00207,Western Cape,South Africa,-28.2332,-9.9125,2023-03-14
+CUST-00208,Customer 00208,Greater London,United Kingdom,40.3998,106.8079,2024-04-03
+CUST-00209,Customer 00209,Gauteng,South Africa,0.0,0.0,2025-08-06
+CUST-00210,Customer 00210,California,United States,22.2196,-97.1823,2025-02-03
+CUST-00211,Customer 00211,California,United States,40.4361,-93.093,2023-03-28
+CUST-00212,Customer 00212,California,United States,-56.0603,33.4889,2024-09-04
+CUST-00213,Customer 00213,New South Wales,Australia,39.0352,-17.4387,2024-04-25
+CUST-00214,Customer 00214,California,United States,32.0977,-67.7262,2023-07-14
+CUST-00215,Customer 00215,California,United States,-9.6142,-17.6416,2025-04-11
+CUST-00216,Customer 00216,Greater London,United Kingdom,44.5261,-115.6141,2024-07-07
+CUST-00217,Customer 00217,Ontario,Canada,11.5676,1.6652,2024-05-10
+CUST-00218,Customer 00218,Gauteng,South Africa,-31.3574,109.1848,2023-08-31
+CUST-00219,Customer 00219,California,United States,-16.6144,78.1454,2026-03-30
+CUST-00220,Customer 00220,Ontario,Canada,2.3796,-45.554,2024-03-10
+CUST-00221,Customer 00221,New South Wales,Australia,17.9388,104.3561,2023-02-07
+CUST-00222,Customer 00222,Western Cape,South Africa,9.1722,82.7294,2024-09-30
+CUST-00223,Customer 00223,Western Cape,South Africa,31.5,77.969,2024-01-26
+CUST-00224,Customer 00224,California,United States,34.4314,-59.2064,2025-03-15
+CUST-00225,Customer 00225,New South Wales,Australia,-40.4716,-47.2089,2024-12-20
+CUST-00226,Customer 00226,New South Wales,Australia,-44.0253,-85.5919,2023-07-27
+CUST-00227,Customer 00227,California,United States,20.5523,-77.204,2025-04-28
+CUST-00228,Customer 00228,Gauteng,South Africa,-34.5386,-37.5582,2023-07-28
+CUST-00229,Customer 00229,Ontario,Canada,15.1013,42.1857,2023-01-04
+CUST-00230,Customer 00230,New South Wales,Australia,30.6877,-69.1764,2024-07-13
+CUST-00231,Customer 00231,Greater London,United Kingdom,-25.6879,-96.62,2024-12-21
+CUST-00232,Customer 00232,Western Cape,South Africa,20.6458,-77.5049,2023-02-04
+CUST-00233,Customer 00233,Gauteng,South Africa,25.0829,6.8231,2023-10-11
+CUST-00234,Customer 00234,Gauteng,South Africa,-23.0183,84.9924,2026-03-20
+CUST-00235,Customer 00235,Greater London,United Kingdom,0.88,-19.0232,2025-02-25
+CUST-00236,Customer 00236,Gauteng,South Africa,-33.8925,-34.0799,2024-03-22
+CUST-00237,Customer 00237,New South Wales,Australia,-42.6452,105.6414,2023-10-31
+CUST-00238,Customer 00238,Ontario,Canada,-9.9118,33.6724,2026-02-24
+CUST-00239,Customer 00239,Gauteng,South Africa,13.2632,-88.2832,2023-06-14
+CUST-00240,Customer 00240,New South Wales,Australia,20.1646,97.9469,2025-03-29
+CUST-00241,Customer 00241,Gauteng,South Africa,-59.5654,67.8167,2024-06-02
+CUST-00242,Customer 00242,California,United States,-9.6826,-10.126,2025-08-06
+CUST-00243,Customer 00243,Ontario,Canada,-35.4306,81.9602,2025-11-05
+CUST-00244,Customer 00244,Ontario,Canada,2.5679,-34.4668,2025-05-23
+CUST-00245,Customer 00245,Ontario,Canada,36.8026,-66.2426,2023-06-03
+CUST-00246,Customer 00246,California,United States,-25.041,-51.0269,2025-01-10
+CUST-00247,Customer 00247,Greater London,United Kingdom,-58.375,-60.2918,2025-10-12
+CUST-00248,Customer 00248,Ontario,Canada,3.0868,84.583,2024-06-09
+CUST-00249,Customer 00249,Gauteng,South Africa,-17.2798,41.9083,2023-09-08
+CUST-00250,Customer 00250,California,United States,-18.8149,92.7741,2023-12-15
+CUST-00251,Customer 00251,Ontario,Canada,-7.2551,24.6017,2023-02-24
+CUST-00252,Customer 00252,Ontario,Canada,49.2467,-97.9929,2023-11-04
+CUST-00253,Customer 00253,Greater London,United Kingdom,-9.7021,102.1386,2024-09-25
+CUST-00254,Customer 00254,New South Wales,Australia,0.0,0.0,2024-08-31
+CUST-00255,Customer 00255,New South Wales,Australia,28.5069,-26.4923,2023-05-24
+CUST-00256,Customer 00256,California,United States,37.554,-19.5089,2024-11-07
+CUST-00257,Customer 00257,Greater London,United Kingdom,36.9531,-31.7692,2023-10-07
+CUST-00258,Customer 00258,California,United States,-21.9533,105.8532,2025-01-09
+CUST-00259,Customer 00259,Gauteng,South Africa,14.7378,53.3322,2025-04-09
+CUST-00260,Customer 00260,Gauteng,South Africa,11.7531,-70.3124,2023-09-30
+CUST-00261,Customer 00261,Greater London,United Kingdom,-42.7229,3.6943,2025-11-30
+CUST-00262,Customer 00262,New South Wales,Australia,33.5425,69.3322,2023-11-22
+CUST-00263,Customer 00263,Ontario,Canada,-32.892,-65.0886,2024-02-18
+CUST-00264,Customer 00264,California,United States,-49.2045,-93.489,2024-09-15
+CUST-00265,Customer 00265,California,United States,-20.6333,88.8497,2024-03-07
+CUST-00266,Customer 00266,Greater London,United Kingdom,30.6771,38.3281,2024-04-09
+CUST-00267,Customer 00267,New South Wales,Australia,-17.929,101.329,2024-01-22
+CUST-00268,Customer 00268,Ontario,Canada,-23.9869,48.3004,2023-07-19
+CUST-00269,Customer 00269,California,United States,12.6302,-16.1126,2023-05-08
+CUST-00270,Customer 00270,Greater London,United Kingdom,34.1311,31.8707,2025-07-04
+CUST-00271,Customer 00271,California,United States,-1.8733,25.9598,2025-11-22
+CUST-00272,Customer 00272,California,United States,-46.6779,-63.551,2023-06-19
+CUST-00273,Customer 00273,Gauteng,South Africa,13.0468,-67.4009,2026-01-11
+CUST-00274,Customer 00274,Western Cape,South Africa,-45.2508,48.7296,2026-01-18
+CUST-00275,Customer 00275,Greater London,United Kingdom,-11.3554,-70.6056,2023-03-06
+CUST-00276,Customer 00276,New South Wales,Australia,9.4242,-0.7671,2023-12-26
+CUST-00277,Customer 00277,Gauteng,South Africa,45.5818,-52.3652,2024-07-08
+CUST-00278,Customer 00278,California,United States,12.0599,17.197,2024-06-18
+CUST-00279,Customer 00279,Greater London,United Kingdom,-25.2939,15.7308,2025-01-05
+CUST-00280,Customer 00280,Gauteng,South Africa,-25.785,-71.5699,2024-01-23
+CUST-00281,Customer 00281,Gauteng,South Africa,15.4753,110.8945,2023-08-27
+CUST-00282,Customer 00282,Gauteng,South Africa,24.6809,-98.479,2023-11-08
+CUST-00283,Customer 00283,Greater London,United Kingdom,23.3037,83.3221,2023-05-13
+CUST-00284,Customer 00284,Ontario,Canada,0.0,0.0,2026-02-01
+CUST-00285,Customer 00285,California,United States,22.027,-40.8005,2024-11-20
+CUST-00286,Customer 00286,Western Cape,South Africa,31.0543,-80.1717,2025-05-01
+CUST-00287,Customer 00287,Greater London,United Kingdom,-58.0931,-44.6035,2025-01-19
+CUST-00288,Customer 00288,Gauteng,South Africa,13.7869,64.4419,2024-05-08
+CUST-00289,Customer 00289,Western Cape,South Africa,-32.373,98.9922,2023-10-06
+CUST-00290,Customer 00290,Ontario,Canada,20.7719,5.9204,2023-07-06
+CUST-00291,Customer 00291,Greater London,United Kingdom,47.026,21.8914,2023-07-02
+CUST-00292,Customer 00292,Western Cape,South Africa,-58.3285,-59.9499,2023-03-20
+CUST-00293,Customer 00293,New South Wales,Australia,55.9911,-82.1019,2023-05-26
+CUST-00294,Customer 00294,California,United States,-40.0117,53.0546,2024-03-08
+CUST-00295,Customer 00295,New South Wales,Australia,46.9846,60.8618,2025-02-13
+CUST-00296,Customer 00296,Ontario,Canada,51.3444,-55.8211,2025-05-01
+CUST-00297,Customer 00297,Western Cape,South Africa,6.3641,-41.3022,2025-06-12
+CUST-00298,Customer 00298,Ontario,Canada,-45.1055,95.3728,2024-12-25
+CUST-00299,Customer 00299,Ontario,Canada,-45.9311,-82.2258,2024-11-17
+CUST-00300,Customer 00300,Greater London,United Kingdom,10.8227,-19.5057,2024-10-01
+CUST-00301,Customer 00301,New South Wales,Australia,42.2027,-54.463,2025-05-08
+CUST-00302,Customer 00302,Western Cape,South Africa,18.3396,76.1798,2025-08-08
+CUST-00303,Customer 00303,Gauteng,South Africa,-10.7695,89.544,2024-08-21
+CUST-00304,Customer 00304,New South Wales,Australia,14.5668,47.0337,2024-12-26
+CUST-00305,Customer 00305,Greater London,United Kingdom,51.3091,27.4,2025-05-29
+CUST-00306,Customer 00306,California,United States,44.4971,77.3143,2023-05-18
+CUST-00307,Customer 00307,Ontario,Canada,33.4008,17.4721,2024-08-10
+CUST-00308,Customer 00308,Greater London,United Kingdom,-51.2968,-26.6403,2023-10-11
+CUST-00309,Customer 00309,New South Wales,Australia,54.3041,-59.712,2024-03-14
+CUST-00310,Customer 00310,Gauteng,South Africa,38.6234,119.5487,2024-10-10
+CUST-00311,Customer 00311,Gauteng,South Africa,40.7585,-54.7763,2025-01-14
+CUST-00312,Customer 00312,Western Cape,South Africa,-37.8079,-22.9926,2025-05-11
+CUST-00313,Customer 00313,Western Cape,South Africa,-59.3375,-48.2264,2025-01-07
+CUST-00314,Customer 00314,Western Cape,South Africa,36.3097,96.4702,2023-08-14
+CUST-00315,Customer 00315,Ontario,Canada,-26.967,12.7589,2023-07-23
+CUST-00316,Customer 00316,California,United States,-43.4453,-4.5731,2024-09-16
+CUST-00317,Customer 00317,Gauteng,South Africa,-49.1128,-24.6873,2026-01-11
+CUST-00318,Customer 00318,New South Wales,Australia,-31.4395,-18.1124,2024-01-15
+CUST-00319,Customer 00319,Ontario,Canada,20.2498,30.7019,2023-02-05
+CUST-00320,Customer 00320,Gauteng,South Africa,32.8733,-51.77,2024-10-12
+CUST-00321,Customer 00321,New South Wales,Australia,-11.3223,93.6023,2023-09-04
+CUST-00322,Customer 00322,California,United States,13.2704,-60.1072,2025-09-22
+CUST-00323,Customer 00323,Greater London,United Kingdom,-19.0006,-80.9195,2023-05-02
+CUST-00324,Customer 00324,Greater London,United Kingdom,15.8659,15.5297,2023-05-16
+CUST-00325,Customer 00325,Gauteng,South Africa,-27.3361,-72.5216,2024-11-11
+CUST-00326,Customer 00326,Western Cape,South Africa,27.817,29.1628,2025-06-05
+CUST-00327,Customer 00327,Greater London,United Kingdom,-7.7458,89.6635,2024-12-18
+CUST-00328,Customer 00328,Greater London,United Kingdom,-23.7271,-23.695,2025-09-26
+CUST-00329,Customer 00329,California,United States,43.09,28.3228,2023-09-05
+CUST-00330,Customer 00330,New South Wales,Australia,56.2167,-3.2569,2026-01-06
+CUST-00331,Customer 00331,Ontario,Canada,56.5459,0.7475,2023-07-21
+CUST-00332,Customer 00332,New South Wales,Australia,-19.0749,35.0043,2026-01-31
+CUST-00333,Customer 00333,Greater London,United Kingdom,32.0597,9.2972,2024-07-06
+CUST-00334,Customer 00334,Gauteng,South Africa,-0.0176,-112.7582,2023-01-09
+CUST-00335,Customer 00335,Western Cape,South Africa,-37.1803,106.0184,2024-08-19
+CUST-00336,Customer 00336,California,United States,47.8678,65.1672,2025-09-06
+CUST-00337,Customer 00337,New South Wales,Australia,52.631,58.6095,2024-08-24
+CUST-00338,Customer 00338,California,United States,-11.3622,-46.7808,2024-12-08
+CUST-00339,Customer 00339,Ontario,Canada,-23.3197,72.8484,2023-11-14
+CUST-00340,Customer 00340,Western Cape,South Africa,2.2013,82.2854,2023-03-26
+CUST-00341,Customer 00341,New South Wales,Australia,-51.3653,72.9785,2023-11-24
+CUST-00342,Customer 00342,Greater London,United Kingdom,20.0936,30.3174,2024-10-04
+CUST-00343,Customer 00343,Gauteng,South Africa,-49.8864,0.7637,2023-09-25
+CUST-00344,Customer 00344,California,United States,0.0,0.0,2025-03-15
+CUST-00345,Customer 00345,Gauteng,South Africa,55.355,75.4609,2023-11-19
+CUST-00346,Customer 00346,New South Wales,Australia,15.3927,-3.9082,2026-04-10
+CUST-00347,Customer 00347,California,United States,0.0,0.0,2023-02-11
+CUST-00348,Customer 00348,California,United States,4.1286,67.1262,2024-08-27
+CUST-00349,Customer 00349,Ontario,Canada,4.5252,-56.0872,2024-09-29
+CUST-00350,Customer 00350,California,United States,53.362,12.1263,2025-09-29
+CUST-00351,Customer 00351,New South Wales,Australia,50.0076,59.4316,2024-03-29
+CUST-00352,Customer 00352,New South Wales,Australia,-23.3214,-9.7746,2025-04-19
+CUST-00353,Customer 00353,Gauteng,South Africa,58.2879,-88.4298,2026-02-03
+CUST-00354,Customer 00354,Gauteng,South Africa,-53.8595,52.7538,2023-12-20
+CUST-00355,Customer 00355,Ontario,Canada,42.8176,-66.9337,2024-11-14
+CUST-00356,Customer 00356,Gauteng,South Africa,37.3255,32.9107,2025-06-15
+CUST-00357,Customer 00357,Gauteng,South Africa,42.8528,25.7565,2025-12-10
+CUST-00358,Customer 00358,Western Cape,South Africa,37.4342,112.5365,2026-02-03
+CUST-00359,Customer 00359,New South Wales,Australia,50.5954,-6.626,2024-01-09
+CUST-00360,Customer 00360,Gauteng,South Africa,47.8336,107.854,2025-11-15
+CUST-00361,Customer 00361,Western Cape,South Africa,-13.489,41.0573,2023-11-10
+CUST-00362,Customer 00362,California,United States,-54.2174,-93.2779,2025-05-29
+CUST-00363,Customer 00363,Greater London,United Kingdom,-2.9549,-35.4283,2025-05-01
+CUST-00364,Customer 00364,Gauteng,South Africa,-5.1194,-73.8803,2023-11-11
+CUST-00365,Customer 00365,New South Wales,Australia,1.8207,37.5116,2024-12-25
+CUST-00366,Customer 00366,Ontario,Canada,-55.6271,102.7808,2023-12-04
+CUST-00367,Customer 00367,Gauteng,South Africa,14.1181,-92.2636,2025-09-27
+CUST-00368,Customer 00368,Greater London,United Kingdom,53.7351,-117.2823,2024-07-06
+CUST-00369,Customer 00369,California,United States,-56.771,-69.0312,2025-09-03
+CUST-00370,Customer 00370,Greater London,United Kingdom,0.0,0.0,2025-10-23
+CUST-00371,Customer 00371,California,United States,49.7165,-52.8409,2023-03-03
+CUST-00372,Customer 00372,California,United States,43.6245,116.3573,2023-08-20
+CUST-00373,Customer 00373,Gauteng,South Africa,17.1836,-83.0779,2025-07-30
+CUST-00374,Customer 00374,Gauteng,South Africa,-44.0477,-115.7048,2025-08-07
+CUST-00375,Customer 00375,California,United States,-54.8819,100.9589,2025-04-30
+CUST-00376,Customer 00376,Gauteng,South Africa,44.3766,-37.2094,2024-09-19
+CUST-00377,Customer 00377,Gauteng,South Africa,-58.6712,-14.0239,2023-05-17
+CUST-00378,Customer 00378,Ontario,Canada,37.1891,-70.0135,2023-08-08
+CUST-00379,Customer 00379,Gauteng,South Africa,53.0222,-70.6887,2026-04-06
+CUST-00380,Customer 00380,Western Cape,South Africa,-2.8353,9.4745,2024-01-27
+CUST-00381,Customer 00381,Gauteng,South Africa,-6.204,40.833,2025-09-16
+CUST-00382,Customer 00382,California,United States,31.2012,-68.091,2025-11-25
+CUST-00383,Customer 00383,Ontario,Canada,48.4779,-93.1291,2023-07-25
+CUST-00384,Customer 00384,New South Wales,Australia,-16.5513,-110.624,2024-02-24
+CUST-00385,Customer 00385,Western Cape,South Africa,-44.3265,17.6793,2025-11-30
+CUST-00386,Customer 00386,Greater London,United Kingdom,-20.6432,36.6852,2023-01-23
+CUST-00387,Customer 00387,Western Cape,South Africa,24.0951,50.3938,2026-03-17
+CUST-00388,Customer 00388,New South Wales,Australia,-5.7163,-25.303,2025-11-29
+CUST-00389,Customer 00389,California,United States,20.6337,8.83,2024-06-18
+CUST-00390,Customer 00390,California,United States,-8.306,25.5592,2026-03-07
+CUST-00391,Customer 00391,Western Cape,South Africa,-19.2206,-37.7211,2024-02-10
+CUST-00392,Customer 00392,Greater London,United Kingdom,38.1146,63.1294,2024-08-18
+CUST-00393,Customer 00393,Gauteng,South Africa,-8.9327,117.0425,2024-11-22
+CUST-00394,Customer 00394,California,United States,-43.5191,93.4543,2025-07-20
+CUST-00395,Customer 00395,New South Wales,Australia,-30.3434,21.0176,2025-02-06
+CUST-00396,Customer 00396,Greater London,United Kingdom,-12.1125,14.2236,2024-02-07
+CUST-00397,Customer 00397,Greater London,United Kingdom,38.6869,108.9309,2025-03-12
+CUST-00398,Customer 00398,Western Cape,South Africa,55.8436,-29.4285,2024-07-06
+CUST-00399,Customer 00399,California,United States,6.473,-20.7715,2024-10-16
+CUST-00400,Customer 00400,Ontario,Canada,-34.6865,3.3698,2025-08-02

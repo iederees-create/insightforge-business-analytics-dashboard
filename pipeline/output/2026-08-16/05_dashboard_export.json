@@ -1,0 +1,3003 @@
+{
+  "logicalDate": "2026-08-16",
+  "rowCount": 1506,
+  "kpis": {
+    "revenue": 289656.41000000003,
+    "orders": 1500,
+    "unitsSold": 4615.0,
+    "averageOrderValue": 193.10427333333337,
+    "averageRevenuePerCustomer": 735.1685532994925,
+    "cost": 139730.38,
+    "profit": 153906.25,
+    "profitMargin": 0.5313407357358326,
+    "discountRate": 0.047752988416376096,
+    "repeatCustomerRate": 0.9187817258883249,
+    "newCustomerCount": 32,
+    "returningCustomerCount": 362,
+    "uniqueCustomers": 394,
+    "topProducts": [
+      {
+        "label": "Scented Soy Candle",
+        "revenue": 36725.23,
+        "quantity": 574,
+        "profit": 19440.09,
+        "orders": 175
+      },
+      {
+        "label": "Bluetooth Ear Buds",
+        "revenue": 33413.14,
+        "quantity": 521,
+        "profit": 17158.4,
+        "orders": 167
+      },
+      {
+        "label": "Stainless Water Bottle",
+        "revenue": 30983.16,
+        "quantity": 482,
+        "profit": 16241.35,
+        "orders": 152
+      },
+      {
+        "label": "Desk Organiser Set",
+        "revenue": 29653.78,
+        "quantity": 472,
+        "profit": 15404.28,
+        "orders": 161
+      },
+      {
+        "label": "Running Shoes - Trail",
+        "revenue": 28862.19,
+        "quantity": 433,
+        "profit": 15470.42,
+        "orders": 146
+      },
+      {
+        "label": "Yoga Mat - Extra Thick",
+        "revenue": 28047.25,
+        "quantity": 481,
+        "profit": 15180.12,
+        "orders": 152
+      },
+      {
+        "label": "Wireless Charging Pad",
+        "revenue": 27006.3,
+        "quantity": 444,
+        "profit": 14449.51,
+        "orders": 145
+      },
+      {
+        "label": "Leather Journal",
+        "revenue": 26604.260000000002,
+        "quantity": 439,
+        "profit": 14496.9,
+        "orders": 141
+      },
+      {
+        "label": "Ceramic Coffee Mug",
+        "revenue": 25654.51,
+        "quantity": 395,
+        "profit": 13506.34,
+        "orders": 135
+      },
+      {
+        "label": "Linen Throw Blanket",
+        "revenue": 22706.59,
+        "quantity": 374,
+        "profit": 12558.84,
+        "orders": 132
+      }
+    ],
+    "topCategories": [
+      {
+        "label": "Sportswear",
+        "revenue": 87892.6,
+        "quantity": 1396,
+        "profit": 46891.89,
+        "orders": 450
+      },
+      {
+        "label": "Home",
+        "revenue": 85086.33,
+        "quantity": 1343,
+        "profit": 45505.27,
+        "orders": 442
+      },
+      {
+        "label": "Electronics",
+        "revenue": 60419.44,
+        "quantity": 965,
+        "profit": 31607.91,
+        "orders": 312
+      },
+      {
+        "label": "Stationery",
+        "revenue": 56258.04,
+        "quantity": 911,
+        "profit": 29901.18,
+        "orders": 302
+      }
+    ],
+    "topChannels": [
+      {
+        "label": "Marketplace",
+        "revenue": 76342.25,
+        "quantity": 1219,
+        "profit": 39674.06,
+        "orders": 397
+      },
+      {
+        "label": "Online Store",
+        "revenue": 73313.82,
+        "quantity": 1125,
+        "profit": 39044.99,
+        "orders": 366
+      },
+      {
+        "label": "Wholesale",
+        "revenue": 73142.03,
+        "quantity": 1177,
+        "profit": 39420.54,
+        "orders": 388
+      },
+      {
+        "label": "Etsy",
+        "revenue": 66858.31,
+        "quantity": 1094,
+        "profit": 35766.66,
+        "orders": 355
+      }
+    ],
+    "topRegions": [
+      {
+        "label": "Gauteng",
+        "revenue": 56262.44,
+        "quantity": 849,
+        "profit": 29612.53,
+        "orders": 277
+      },
+      {
+        "label": "Western Cape",
+        "revenue": 51789.35,
+        "quantity": 820,
+        "profit": 27637.69,
+        "orders": 267
+      },
+      {
+        "label": "Greater London",
+        "revenue": 49571.83,
+        "quantity": 775,
+        "profit": 26564.93,
+        "orders": 252
+      },
+      {
+        "label": "California",
+        "revenue": 49079.03,
+        "quantity": 803,
+        "profit": 25847.43,
+        "orders": 269
+      },
+      {
+        "label": "New South Wales",
+        "revenue": 42867.09,
+        "quantity": 709,
+        "profit": 22667.52,
+        "orders": 228
+      },
+      {
+        "label": "Ontario",
+        "revenue": 40086.67,
+        "quantity": 659,
+        "profit": 21576.15,
+        "orders": 213
+      }
+    ]
+  },
+  "segmentation": {
+    "available": true,
+    "asOfDate": "2026-07-05",
+    "customers": [
+      {
+        "customerId": "CUST-00001",
+        "recencyDays": 108,
+        "frequency": 7,
+        "monetary": 965.1899999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00002",
+        "recencyDays": 168,
+        "frequency": 3,
+        "monetary": 603.01,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00003",
+        "recencyDays": 313,
+        "frequency": 3,
+        "monetary": 511.47,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00004",
+        "recencyDays": 48,
+        "frequency": 5,
+        "monetary": 1553.04,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00005",
+        "recencyDays": 35,
+        "frequency": 4,
+        "monetary": 638.28,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00006",
+        "recencyDays": 255,
+        "frequency": 4,
+        "monetary": 584.54,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00007",
+        "recencyDays": 352,
+        "frequency": 2,
+        "monetary": 352.38,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00008",
+        "recencyDays": 156,
+        "frequency": 6,
+        "monetary": 912.28,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00009",
+        "recencyDays": 137,
+        "frequency": 3,
+        "monetary": 341.57,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00010",
+        "recencyDays": 152,
+        "frequency": 5,
+        "monetary": 1547.3600000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00011",
+        "recencyDays": 507,
+        "frequency": 1,
+        "monetary": 265.21,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00012",
+        "recencyDays": 109,
+        "frequency": 2,
+        "monetary": 619.81,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00013",
+        "recencyDays": 100,
+        "frequency": 3,
+        "monetary": 148.13,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00014",
+        "recencyDays": 120,
+        "frequency": 3,
+        "monetary": 957.1800000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00015",
+        "recencyDays": 11,
+        "frequency": 3,
+        "monetary": 823.5699999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00016",
+        "recencyDays": 93,
+        "frequency": 3,
+        "monetary": 252.39000000000001,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00017",
+        "recencyDays": 65,
+        "frequency": 4,
+        "monetary": 667.35,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00019",
+        "recencyDays": 40,
+        "frequency": 2,
+        "monetary": 683.91,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00020",
+        "recencyDays": 58,
+        "frequency": 5,
+        "monetary": 1452.56,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00021",
+        "recencyDays": 16,
+        "frequency": 4,
+        "monetary": 1100.57,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00022",
+        "recencyDays": 153,
+        "frequency": 3,
+        "monetary": 263.08,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00023",
+        "recencyDays": 214,
+        "frequency": 1,
+        "monetary": 146.19,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00024",
+        "recencyDays": 15,
+        "frequency": 4,
+        "monetary": 797.09,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00025",
+        "recencyDays": 59,
+        "frequency": 3,
+        "monetary": 620.98,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00026",
+        "recencyDays": 136,
+        "frequency": 2,
+        "monetary": 612.9300000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00027",
+        "recencyDays": 27,
+        "frequency": 4,
+        "monetary": 797.92,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00028",
+        "recencyDays": 176,
+        "frequency": 5,
+        "monetary": 1122.23,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00029",
+        "recencyDays": 24,
+        "frequency": 7,
+        "monetary": 834.34,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00030",
+        "recencyDays": 10,
+        "frequency": 5,
+        "monetary": 1063.36,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00031",
+        "recencyDays": 6,
+        "frequency": 6,
+        "monetary": 833.58,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00032",
+        "recencyDays": 309,
+        "frequency": 3,
+        "monetary": 1264.17,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00033",
+        "recencyDays": 194,
+        "frequency": 5,
+        "monetary": 1823.97,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00034",
+        "recencyDays": 128,
+        "frequency": 2,
+        "monetary": 217.01999999999998,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00035",
+        "recencyDays": 196,
+        "frequency": 4,
+        "monetary": 246.70000000000002,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00036",
+        "recencyDays": 108,
+        "frequency": 5,
+        "monetary": 343.08,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00038",
+        "recencyDays": 147,
+        "frequency": 4,
+        "monetary": 1374.26,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00039",
+        "recencyDays": 249,
+        "frequency": 4,
+        "monetary": 923.85,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00040",
+        "recencyDays": 3,
+        "frequency": 7,
+        "monetary": 1558.1799999999998,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00041",
+        "recencyDays": 29,
+        "frequency": 5,
+        "monetary": 1535.5300000000002,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00042",
+        "recencyDays": 80,
+        "frequency": 5,
+        "monetary": 1068.47,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00043",
+        "recencyDays": 109,
+        "frequency": 2,
+        "monetary": 120.78,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00044",
+        "recencyDays": 102,
+        "frequency": 3,
+        "monetary": 224.74,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00045",
+        "recencyDays": 164,
+        "frequency": 6,
+        "monetary": 1197.93,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00046",
+        "recencyDays": 18,
+        "frequency": 3,
+        "monetary": 568.28,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00048",
+        "recencyDays": 105,
+        "frequency": 4,
+        "monetary": 529.81,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00049",
+        "recencyDays": 17,
+        "frequency": 5,
+        "monetary": 867.34,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00051",
+        "recencyDays": 98,
+        "frequency": 4,
+        "monetary": 700.65,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00052",
+        "recencyDays": 88,
+        "frequency": 4,
+        "monetary": 489.73,
+        "segment": "Loyal"
+      },
+      {
+        "customerId": "CUST-00053",
+        "recencyDays": 117,
+        "frequency": 2,
+        "monetary": 419.43,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00054",
+        "recencyDays": 82,
+        "frequency": 2,
+        "monetary": 577.03,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00055",
+        "recencyDays": 351,
+        "frequency": 3,
+        "monetary": 573.9,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00056",
+        "recencyDays": 93,
+        "frequency": 6,
+        "monetary": 1500.99,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00057",
+        "recencyDays": 189,
+        "frequency": 5,
+        "monetary": 1103.1200000000001,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00058",
+        "recencyDays": 336,
+        "frequency": 2,
+        "monetary": 346.19,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00059",
+        "recencyDays": 86,
+        "frequency": 3,
+        "monetary": 583.09,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00060",
+        "recencyDays": 84,
+        "frequency": 3,
+        "monetary": 472.01,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00061",
+        "recencyDays": 67,
+        "frequency": 5,
+        "monetary": 1047.84,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00062",
+        "recencyDays": 28,
+        "frequency": 3,
+        "monetary": 395.93,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00063",
+        "recencyDays": 85,
+        "frequency": 3,
+        "monetary": 592.18,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00064",
+        "recencyDays": 140,
+        "frequency": 4,
+        "monetary": 1048.99,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00065",
+        "recencyDays": 64,
+        "frequency": 4,
+        "monetary": 621.88,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00066",
+        "recencyDays": 119,
+        "frequency": 4,
+        "monetary": 292.46,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00067",
+        "recencyDays": 3,
+        "frequency": 4,
+        "monetary": 1044.83,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00069",
+        "recencyDays": 395,
+        "frequency": 4,
+        "monetary": 684.34,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00070",
+        "recencyDays": 12,
+        "frequency": 2,
+        "monetary": 620.4599999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00071",
+        "recencyDays": 15,
+        "frequency": 5,
+        "monetary": 770.16,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00072",
+        "recencyDays": 301,
+        "frequency": 4,
+        "monetary": 212.05,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00073",
+        "recencyDays": 109,
+        "frequency": 6,
+        "monetary": 778.03,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00074",
+        "recencyDays": 83,
+        "frequency": 3,
+        "monetary": 716.39,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00075",
+        "recencyDays": 153,
+        "frequency": 5,
+        "monetary": 1044.75,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00076",
+        "recencyDays": 128,
+        "frequency": 4,
+        "monetary": 543.7,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00077",
+        "recencyDays": 160,
+        "frequency": 2,
+        "monetary": 342.39,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00078",
+        "recencyDays": 45,
+        "frequency": 3,
+        "monetary": 491.08,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00079",
+        "recencyDays": 312,
+        "frequency": 3,
+        "monetary": 725.47,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00080",
+        "recencyDays": 163,
+        "frequency": 6,
+        "monetary": 1586.31,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00082",
+        "recencyDays": 130,
+        "frequency": 6,
+        "monetary": 611.36,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00083",
+        "recencyDays": 81,
+        "frequency": 7,
+        "monetary": 810.99,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00084",
+        "recencyDays": 0,
+        "frequency": 3,
+        "monetary": 525.73,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00085",
+        "recencyDays": 3,
+        "frequency": 7,
+        "monetary": 1328.91,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00086",
+        "recencyDays": 32,
+        "frequency": 7,
+        "monetary": 663.48,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00087",
+        "recencyDays": 211,
+        "frequency": 4,
+        "monetary": 748.4,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00088",
+        "recencyDays": 194,
+        "frequency": 4,
+        "monetary": 729.14,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00089",
+        "recencyDays": 69,
+        "frequency": 3,
+        "monetary": 188.31,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00090",
+        "recencyDays": 77,
+        "frequency": 4,
+        "monetary": 921.56,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00091",
+        "recencyDays": 3,
+        "frequency": 6,
+        "monetary": 1339.71,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00092",
+        "recencyDays": 255,
+        "frequency": 4,
+        "monetary": 341.7,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00093",
+        "recencyDays": 0,
+        "frequency": 4,
+        "monetary": 328.82,
+        "segment": "Loyal"
+      },
+      {
+        "customerId": "CUST-00094",
+        "recencyDays": 138,
+        "frequency": 6,
+        "monetary": 542.16,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00095",
+        "recencyDays": 73,
+        "frequency": 6,
+        "monetary": 1185.32,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00096",
+        "recencyDays": 84,
+        "frequency": 2,
+        "monetary": 187.10999999999999,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00097",
+        "recencyDays": 76,
+        "frequency": 6,
+        "monetary": 1379.46,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00098",
+        "recencyDays": 56,
+        "frequency": 5,
+        "monetary": 1511.72,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00099",
+        "recencyDays": 112,
+        "frequency": 3,
+        "monetary": 643.69,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00100",
+        "recencyDays": 64,
+        "frequency": 7,
+        "monetary": 1453.67,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00101",
+        "recencyDays": 9,
+        "frequency": 7,
+        "monetary": 1310.4099999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00102",
+        "recencyDays": 42,
+        "frequency": 8,
+        "monetary": 1234.95,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00103",
+        "recencyDays": 16,
+        "frequency": 1,
+        "monetary": 263.27,
+        "segment": "New"
+      },
+      {
+        "customerId": "CUST-00104",
+        "recencyDays": 404,
+        "frequency": 2,
+        "monetary": 582.12,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00105",
+        "recencyDays": 59,
+        "frequency": 9,
+        "monetary": 1657.88,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00106",
+        "recencyDays": 60,
+        "frequency": 4,
+        "monetary": 817.01,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00107",
+        "recencyDays": 110,
+        "frequency": 3,
+        "monetary": 422.99,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00108",
+        "recencyDays": 242,
+        "frequency": 4,
+        "monetary": 639.48,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00110",
+        "recencyDays": 136,
+        "frequency": 2,
+        "monetary": 231.46,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00111",
+        "recencyDays": 197,
+        "frequency": 5,
+        "monetary": 929.27,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00113",
+        "recencyDays": 23,
+        "frequency": 4,
+        "monetary": 802.54,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00114",
+        "recencyDays": 122,
+        "frequency": 3,
+        "monetary": 768.9100000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00115",
+        "recencyDays": 81,
+        "frequency": 5,
+        "monetary": 1109.12,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00116",
+        "recencyDays": 34,
+        "frequency": 5,
+        "monetary": 949.14,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00117",
+        "recencyDays": 49,
+        "frequency": 6,
+        "monetary": 1676.96,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00118",
+        "recencyDays": 114,
+        "frequency": 4,
+        "monetary": 631.73,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00119",
+        "recencyDays": 110,
+        "frequency": 6,
+        "monetary": 602.11,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00120",
+        "recencyDays": 186,
+        "frequency": 4,
+        "monetary": 538.69,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00121",
+        "recencyDays": 12,
+        "frequency": 4,
+        "monetary": 1037.13,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00122",
+        "recencyDays": 157,
+        "frequency": 1,
+        "monetary": 248.85,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00123",
+        "recencyDays": 521,
+        "frequency": 1,
+        "monetary": 178.07,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00124",
+        "recencyDays": 238,
+        "frequency": 3,
+        "monetary": 355.53,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00125",
+        "recencyDays": 69,
+        "frequency": 7,
+        "monetary": 1285.67,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00126",
+        "recencyDays": 10,
+        "frequency": 5,
+        "monetary": 812.27,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00127",
+        "recencyDays": 88,
+        "frequency": 3,
+        "monetary": 396.63,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00128",
+        "recencyDays": 39,
+        "frequency": 4,
+        "monetary": 474.52,
+        "segment": "Loyal"
+      },
+      {
+        "customerId": "CUST-00130",
+        "recencyDays": 334,
+        "frequency": 3,
+        "monetary": 284.44,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00131",
+        "recencyDays": 110,
+        "frequency": 4,
+        "monetary": 1342.1499999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00132",
+        "recencyDays": 71,
+        "frequency": 3,
+        "monetary": 1034.51,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00133",
+        "recencyDays": 32,
+        "frequency": 4,
+        "monetary": 1253.75,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00134",
+        "recencyDays": 167,
+        "frequency": 3,
+        "monetary": 495.13,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00135",
+        "recencyDays": 377,
+        "frequency": 1,
+        "monetary": 138.72,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00136",
+        "recencyDays": 168,
+        "frequency": 3,
+        "monetary": 621.87,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00137",
+        "recencyDays": 491,
+        "frequency": 2,
+        "monetary": 244.92000000000002,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00139",
+        "recencyDays": 136,
+        "frequency": 5,
+        "monetary": 958.23,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00140",
+        "recencyDays": 138,
+        "frequency": 4,
+        "monetary": 654.52,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00141",
+        "recencyDays": 162,
+        "frequency": 4,
+        "monetary": 873.04,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00142",
+        "recencyDays": 34,
+        "frequency": 3,
+        "monetary": 558.64,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00143",
+        "recencyDays": 18,
+        "frequency": 6,
+        "monetary": 1029.79,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00144",
+        "recencyDays": 156,
+        "frequency": 5,
+        "monetary": 758.4000000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00145",
+        "recencyDays": 67,
+        "frequency": 3,
+        "monetary": 543.75,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00146",
+        "recencyDays": 24,
+        "frequency": 6,
+        "monetary": 1219.84,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00147",
+        "recencyDays": 31,
+        "frequency": 2,
+        "monetary": 839.22,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00148",
+        "recencyDays": 170,
+        "frequency": 5,
+        "monetary": 748.62,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00149",
+        "recencyDays": 99,
+        "frequency": 4,
+        "monetary": 479.6,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00150",
+        "recencyDays": 131,
+        "frequency": 5,
+        "monetary": 1258.03,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00151",
+        "recencyDays": 139,
+        "frequency": 2,
+        "monetary": 296.86,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00152",
+        "recencyDays": 217,
+        "frequency": 3,
+        "monetary": 260.40999999999997,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00153",
+        "recencyDays": 138,
+        "frequency": 1,
+        "monetary": 59.46,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00154",
+        "recencyDays": 386,
+        "frequency": 4,
+        "monetary": 560.63,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00155",
+        "recencyDays": 135,
+        "frequency": 2,
+        "monetary": 443.87,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00156",
+        "recencyDays": 273,
+        "frequency": 4,
+        "monetary": 813.6600000000001,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00157",
+        "recencyDays": 206,
+        "frequency": 2,
+        "monetary": 260.64,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00158",
+        "recencyDays": 62,
+        "frequency": 8,
+        "monetary": 1467.47,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00159",
+        "recencyDays": 80,
+        "frequency": 3,
+        "monetary": 799.99,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00160",
+        "recencyDays": 35,
+        "frequency": 5,
+        "monetary": 527.68,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00161",
+        "recencyDays": 15,
+        "frequency": 7,
+        "monetary": 1243.19,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00162",
+        "recencyDays": 417,
+        "frequency": 2,
+        "monetary": 101.08000000000001,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00163",
+        "recencyDays": 512,
+        "frequency": 1,
+        "monetary": 54.95,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00164",
+        "recencyDays": 87,
+        "frequency": 2,
+        "monetary": 144.48,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00165",
+        "recencyDays": 134,
+        "frequency": 3,
+        "monetary": 536.63,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00166",
+        "recencyDays": 33,
+        "frequency": 3,
+        "monetary": 370.21000000000004,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00167",
+        "recencyDays": 12,
+        "frequency": 3,
+        "monetary": 436.94,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00168",
+        "recencyDays": 325,
+        "frequency": 2,
+        "monetary": 307.04,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00169",
+        "recencyDays": 52,
+        "frequency": 4,
+        "monetary": 566.18,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00170",
+        "recencyDays": 108,
+        "frequency": 3,
+        "monetary": 709.6800000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00171",
+        "recencyDays": 29,
+        "frequency": 3,
+        "monetary": 116.97999999999999,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00172",
+        "recencyDays": 178,
+        "frequency": 2,
+        "monetary": 692.02,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00173",
+        "recencyDays": 105,
+        "frequency": 2,
+        "monetary": 202.63,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00174",
+        "recencyDays": 349,
+        "frequency": 4,
+        "monetary": 920.17,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00175",
+        "recencyDays": 53,
+        "frequency": 5,
+        "monetary": 616.12,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00176",
+        "recencyDays": 151,
+        "frequency": 4,
+        "monetary": 792.4300000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00177",
+        "recencyDays": 129,
+        "frequency": 5,
+        "monetary": 1389.26,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00178",
+        "recencyDays": 191,
+        "frequency": 7,
+        "monetary": 1444.05,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00179",
+        "recencyDays": 58,
+        "frequency": 5,
+        "monetary": 476.21000000000004,
+        "segment": "Loyal"
+      },
+      {
+        "customerId": "CUST-00180",
+        "recencyDays": 60,
+        "frequency": 3,
+        "monetary": 704.9,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00181",
+        "recencyDays": 30,
+        "frequency": 6,
+        "monetary": 1480.85,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00182",
+        "recencyDays": 134,
+        "frequency": 5,
+        "monetary": 708.52,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00183",
+        "recencyDays": 75,
+        "frequency": 4,
+        "monetary": 1324.25,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00184",
+        "recencyDays": 219,
+        "frequency": 3,
+        "monetary": 717.65,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00185",
+        "recencyDays": 34,
+        "frequency": 5,
+        "monetary": 1447.53,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00186",
+        "recencyDays": 14,
+        "frequency": 2,
+        "monetary": 284.54999999999995,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00187",
+        "recencyDays": 13,
+        "frequency": 6,
+        "monetary": 1111.32,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00188",
+        "recencyDays": 97,
+        "frequency": 4,
+        "monetary": 773.27,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00189",
+        "recencyDays": 77,
+        "frequency": 2,
+        "monetary": 462.49,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00190",
+        "recencyDays": 64,
+        "frequency": 8,
+        "monetary": 1810.92,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00191",
+        "recencyDays": 102,
+        "frequency": 4,
+        "monetary": 1177.8899999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00192",
+        "recencyDays": 101,
+        "frequency": 6,
+        "monetary": 875.27,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00193",
+        "recencyDays": 60,
+        "frequency": 4,
+        "monetary": 826.07,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00194",
+        "recencyDays": 417,
+        "frequency": 3,
+        "monetary": 343.28999999999996,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00196",
+        "recencyDays": 10,
+        "frequency": 6,
+        "monetary": 1477.65,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00197",
+        "recencyDays": 27,
+        "frequency": 3,
+        "monetary": 375.96000000000004,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00198",
+        "recencyDays": 48,
+        "frequency": 4,
+        "monetary": 710.81,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00199",
+        "recencyDays": 116,
+        "frequency": 3,
+        "monetary": 183.5,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00200",
+        "recencyDays": 94,
+        "frequency": 7,
+        "monetary": 1276.17,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00201",
+        "recencyDays": 26,
+        "frequency": 3,
+        "monetary": 441.06000000000006,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00202",
+        "recencyDays": 298,
+        "frequency": 3,
+        "monetary": 538.64,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00205",
+        "recencyDays": 274,
+        "frequency": 3,
+        "monetary": 856.39,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00206",
+        "recencyDays": 58,
+        "frequency": 2,
+        "monetary": 196.22,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00207",
+        "recencyDays": 183,
+        "frequency": 2,
+        "monetary": 395.40999999999997,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00208",
+        "recencyDays": 211,
+        "frequency": 2,
+        "monetary": 599.38,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00209",
+        "recencyDays": 354,
+        "frequency": 2,
+        "monetary": 347.54999999999995,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00210",
+        "recencyDays": 70,
+        "frequency": 3,
+        "monetary": 1102.3899999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00211",
+        "recencyDays": 29,
+        "frequency": 6,
+        "monetary": 1736.3600000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00212",
+        "recencyDays": 108,
+        "frequency": 6,
+        "monetary": 1101.8,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00213",
+        "recencyDays": 36,
+        "frequency": 7,
+        "monetary": 1755.22,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00214",
+        "recencyDays": 11,
+        "frequency": 3,
+        "monetary": 355.84000000000003,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00215",
+        "recencyDays": 259,
+        "frequency": 1,
+        "monetary": 115.17,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00216",
+        "recencyDays": 55,
+        "frequency": 3,
+        "monetary": 368.42,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00217",
+        "recencyDays": 21,
+        "frequency": 5,
+        "monetary": 1486.08,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00218",
+        "recencyDays": 228,
+        "frequency": 4,
+        "monetary": 543.18,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00219",
+        "recencyDays": 415,
+        "frequency": 3,
+        "monetary": 641.12,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00220",
+        "recencyDays": 12,
+        "frequency": 4,
+        "monetary": 928.51,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00221",
+        "recencyDays": 5,
+        "frequency": 4,
+        "monetary": 546.87,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00222",
+        "recencyDays": 4,
+        "frequency": 2,
+        "monetary": 699.31,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00223",
+        "recencyDays": 132,
+        "frequency": 4,
+        "monetary": 1158.7,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00224",
+        "recencyDays": 390,
+        "frequency": 3,
+        "monetary": 596.78,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00225",
+        "recencyDays": 87,
+        "frequency": 5,
+        "monetary": 1067.67,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00226",
+        "recencyDays": 100,
+        "frequency": 4,
+        "monetary": 392.85,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00227",
+        "recencyDays": 132,
+        "frequency": 7,
+        "monetary": 1315.18,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00228",
+        "recencyDays": 251,
+        "frequency": 4,
+        "monetary": 622.39,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00229",
+        "recencyDays": 316,
+        "frequency": 4,
+        "monetary": 993.22,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00230",
+        "recencyDays": 331,
+        "frequency": 2,
+        "monetary": 559.84,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00231",
+        "recencyDays": 97,
+        "frequency": 3,
+        "monetary": 711.27,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00232",
+        "recencyDays": 114,
+        "frequency": 5,
+        "monetary": 1489.8600000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00233",
+        "recencyDays": 267,
+        "frequency": 5,
+        "monetary": 648.02,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00234",
+        "recencyDays": 197,
+        "frequency": 3,
+        "monetary": 172.92,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00235",
+        "recencyDays": 247,
+        "frequency": 3,
+        "monetary": 294.54,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00236",
+        "recencyDays": 145,
+        "frequency": 2,
+        "monetary": 672.46,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00237",
+        "recencyDays": 70,
+        "frequency": 5,
+        "monetary": 814.0,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00238",
+        "recencyDays": 223,
+        "frequency": 3,
+        "monetary": 479.52,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00239",
+        "recencyDays": 314,
+        "frequency": 1,
+        "monetary": 401.12,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00240",
+        "recencyDays": 268,
+        "frequency": 2,
+        "monetary": 116.66,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00241",
+        "recencyDays": 320,
+        "frequency": 3,
+        "monetary": 442.94,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00242",
+        "recencyDays": 17,
+        "frequency": 2,
+        "monetary": 531.6600000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00243",
+        "recencyDays": 88,
+        "frequency": 5,
+        "monetary": 836.5899999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00244",
+        "recencyDays": 198,
+        "frequency": 7,
+        "monetary": 945.11,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00245",
+        "recencyDays": 533,
+        "frequency": 1,
+        "monetary": 133.0,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00246",
+        "recencyDays": 122,
+        "frequency": 3,
+        "monetary": 607.1199999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00247",
+        "recencyDays": 19,
+        "frequency": 5,
+        "monetary": 929.4499999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00248",
+        "recencyDays": 4,
+        "frequency": 3,
+        "monetary": 375.9,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00249",
+        "recencyDays": 30,
+        "frequency": 6,
+        "monetary": 1360.66,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00250",
+        "recencyDays": 358,
+        "frequency": 1,
+        "monetary": 85.96,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00251",
+        "recencyDays": 79,
+        "frequency": 7,
+        "monetary": 727.54,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00252",
+        "recencyDays": 76,
+        "frequency": 6,
+        "monetary": 1091.77,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00253",
+        "recencyDays": 116,
+        "frequency": 8,
+        "monetary": 2132.64,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00254",
+        "recencyDays": 40,
+        "frequency": 5,
+        "monetary": 1154.54,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00255",
+        "recencyDays": 146,
+        "frequency": 2,
+        "monetary": 648.64,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00256",
+        "recencyDays": 103,
+        "frequency": 5,
+        "monetary": 418.58,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00257",
+        "recencyDays": 221,
+        "frequency": 3,
+        "monetary": 491.45,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00258",
+        "recencyDays": 255,
+        "frequency": 1,
+        "monetary": 436.06,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00259",
+        "recencyDays": 201,
+        "frequency": 1,
+        "monetary": 99.8,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00260",
+        "recencyDays": 36,
+        "frequency": 4,
+        "monetary": 1246.6299999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00261",
+        "recencyDays": 147,
+        "frequency": 4,
+        "monetary": 864.82,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00262",
+        "recencyDays": 347,
+        "frequency": 2,
+        "monetary": 446.56000000000006,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00263",
+        "recencyDays": 55,
+        "frequency": 3,
+        "monetary": 481.15,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00264",
+        "recencyDays": 75,
+        "frequency": 4,
+        "monetary": 756.2,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00265",
+        "recencyDays": 149,
+        "frequency": 2,
+        "monetary": 347.67,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00266",
+        "recencyDays": 53,
+        "frequency": 6,
+        "monetary": 954.06,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00267",
+        "recencyDays": 77,
+        "frequency": 4,
+        "monetary": 430.49,
+        "segment": "Loyal"
+      },
+      {
+        "customerId": "CUST-00268",
+        "recencyDays": 170,
+        "frequency": 6,
+        "monetary": 1373.55,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00269",
+        "recencyDays": 21,
+        "frequency": 5,
+        "monetary": 1243.75,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00270",
+        "recencyDays": 3,
+        "frequency": 5,
+        "monetary": 385.05,
+        "segment": "Loyal"
+      },
+      {
+        "customerId": "CUST-00271",
+        "recencyDays": 91,
+        "frequency": 3,
+        "monetary": 390.69,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00272",
+        "recencyDays": 355,
+        "frequency": 1,
+        "monetary": 461.0,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00273",
+        "recencyDays": 54,
+        "frequency": 3,
+        "monetary": 470.40999999999997,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00274",
+        "recencyDays": 156,
+        "frequency": 4,
+        "monetary": 779.22,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00275",
+        "recencyDays": 12,
+        "frequency": 4,
+        "monetary": 601.97,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00276",
+        "recencyDays": 34,
+        "frequency": 6,
+        "monetary": 1167.66,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00277",
+        "recencyDays": 36,
+        "frequency": 4,
+        "monetary": 1257.03,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00278",
+        "recencyDays": 332,
+        "frequency": 1,
+        "monetary": 56.75,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00279",
+        "recencyDays": 38,
+        "frequency": 3,
+        "monetary": 596.4,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00280",
+        "recencyDays": 174,
+        "frequency": 1,
+        "monetary": 322.17,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00281",
+        "recencyDays": 351,
+        "frequency": 3,
+        "monetary": 509.19,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00282",
+        "recencyDays": 497,
+        "frequency": 1,
+        "monetary": 424.98,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00283",
+        "recencyDays": 129,
+        "frequency": 6,
+        "monetary": 1361.76,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00284",
+        "recencyDays": 36,
+        "frequency": 7,
+        "monetary": 1448.77,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00285",
+        "recencyDays": 4,
+        "frequency": 2,
+        "monetary": 149.32999999999998,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00286",
+        "recencyDays": 264,
+        "frequency": 2,
+        "monetary": 91.0,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00287",
+        "recencyDays": 14,
+        "frequency": 7,
+        "monetary": 1948.48,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00288",
+        "recencyDays": 174,
+        "frequency": 7,
+        "monetary": 1259.63,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00289",
+        "recencyDays": 68,
+        "frequency": 3,
+        "monetary": 243.01,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00290",
+        "recencyDays": 130,
+        "frequency": 3,
+        "monetary": 671.49,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00291",
+        "recencyDays": 14,
+        "frequency": 4,
+        "monetary": 903.8299999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00292",
+        "recencyDays": 154,
+        "frequency": 5,
+        "monetary": 956.0,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00293",
+        "recencyDays": 10,
+        "frequency": 3,
+        "monetary": 687.78,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00294",
+        "recencyDays": 54,
+        "frequency": 6,
+        "monetary": 1001.05,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00295",
+        "recencyDays": 19,
+        "frequency": 2,
+        "monetary": 362.06,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00296",
+        "recencyDays": 216,
+        "frequency": 4,
+        "monetary": 943.7,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00297",
+        "recencyDays": 108,
+        "frequency": 3,
+        "monetary": 186.91,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00298",
+        "recencyDays": 48,
+        "frequency": 6,
+        "monetary": 401.48,
+        "segment": "Loyal"
+      },
+      {
+        "customerId": "CUST-00299",
+        "recencyDays": 104,
+        "frequency": 3,
+        "monetary": 383.39,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00300",
+        "recencyDays": 222,
+        "frequency": 2,
+        "monetary": 460.88,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00301",
+        "recencyDays": 225,
+        "frequency": 2,
+        "monetary": 389.95000000000005,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00302",
+        "recencyDays": 25,
+        "frequency": 2,
+        "monetary": 268.4,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00303",
+        "recencyDays": 34,
+        "frequency": 7,
+        "monetary": 1732.28,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00304",
+        "recencyDays": 148,
+        "frequency": 3,
+        "monetary": 324.64,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00305",
+        "recencyDays": 117,
+        "frequency": 3,
+        "monetary": 1030.26,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00306",
+        "recencyDays": 330,
+        "frequency": 1,
+        "monetary": 165.16,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00307",
+        "recencyDays": 146,
+        "frequency": 1,
+        "monetary": 113.46,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00308",
+        "recencyDays": 30,
+        "frequency": 4,
+        "monetary": 566.99,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00309",
+        "recencyDays": 79,
+        "frequency": 4,
+        "monetary": 765.27,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00310",
+        "recencyDays": 1,
+        "frequency": 3,
+        "monetary": 555.9200000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00311",
+        "recencyDays": 78,
+        "frequency": 4,
+        "monetary": 482.51,
+        "segment": "Loyal"
+      },
+      {
+        "customerId": "CUST-00312",
+        "recencyDays": 79,
+        "frequency": 3,
+        "monetary": 684.3900000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00313",
+        "recencyDays": 95,
+        "frequency": 4,
+        "monetary": 1276.56,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00314",
+        "recencyDays": 8,
+        "frequency": 6,
+        "monetary": 1478.98,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00315",
+        "recencyDays": 251,
+        "frequency": 1,
+        "monetary": 20.75,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00316",
+        "recencyDays": 188,
+        "frequency": 2,
+        "monetary": 677.27,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00317",
+        "recencyDays": 97,
+        "frequency": 4,
+        "monetary": 973.3199999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00318",
+        "recencyDays": 90,
+        "frequency": 4,
+        "monetary": 490.99,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00319",
+        "recencyDays": 95,
+        "frequency": 1,
+        "monetary": 29.32,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00320",
+        "recencyDays": 168,
+        "frequency": 2,
+        "monetary": 55.47,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00321",
+        "recencyDays": 36,
+        "frequency": 2,
+        "monetary": 501.3,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00322",
+        "recencyDays": 113,
+        "frequency": 5,
+        "monetary": 536.3000000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00323",
+        "recencyDays": 360,
+        "frequency": 4,
+        "monetary": 800.2,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00324",
+        "recencyDays": 169,
+        "frequency": 4,
+        "monetary": 573.8399999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00325",
+        "recencyDays": 210,
+        "frequency": 2,
+        "monetary": 427.3,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00326",
+        "recencyDays": 75,
+        "frequency": 4,
+        "monetary": 744.89,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00327",
+        "recencyDays": 547,
+        "frequency": 1,
+        "monetary": 144.87,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00328",
+        "recencyDays": 288,
+        "frequency": 3,
+        "monetary": 795.3000000000001,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00329",
+        "recencyDays": 22,
+        "frequency": 3,
+        "monetary": 529.0699999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00330",
+        "recencyDays": 18,
+        "frequency": 6,
+        "monetary": 1261.8,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00331",
+        "recencyDays": 258,
+        "frequency": 1,
+        "monetary": 198.67,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00332",
+        "recencyDays": 158,
+        "frequency": 3,
+        "monetary": 393.14,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00333",
+        "recencyDays": 47,
+        "frequency": 7,
+        "monetary": 1420.05,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00334",
+        "recencyDays": 250,
+        "frequency": 2,
+        "monetary": 392.97,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00335",
+        "recencyDays": 92,
+        "frequency": 5,
+        "monetary": 1603.23,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00336",
+        "recencyDays": 19,
+        "frequency": 7,
+        "monetary": 1303.16,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00337",
+        "recencyDays": 419,
+        "frequency": 2,
+        "monetary": 301.62,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00338",
+        "recencyDays": 317,
+        "frequency": 2,
+        "monetary": 359.08,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00339",
+        "recencyDays": 41,
+        "frequency": 3,
+        "monetary": 378.66,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00340",
+        "recencyDays": 101,
+        "frequency": 4,
+        "monetary": 854.16,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00341",
+        "recencyDays": 56,
+        "frequency": 2,
+        "monetary": 1049.99,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00342",
+        "recencyDays": 14,
+        "frequency": 5,
+        "monetary": 1149.22,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00343",
+        "recencyDays": 236,
+        "frequency": 4,
+        "monetary": 580.8299999999999,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00344",
+        "recencyDays": 44,
+        "frequency": 7,
+        "monetary": 1463.62,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00345",
+        "recencyDays": 102,
+        "frequency": 3,
+        "monetary": 978.3900000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00346",
+        "recencyDays": 132,
+        "frequency": 5,
+        "monetary": 528.22,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00347",
+        "recencyDays": 124,
+        "frequency": 5,
+        "monetary": 1047.89,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00348",
+        "recencyDays": 407,
+        "frequency": 1,
+        "monetary": 354.85,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00349",
+        "recencyDays": 251,
+        "frequency": 2,
+        "monetary": 356.44,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00350",
+        "recencyDays": 81,
+        "frequency": 3,
+        "monetary": 446.03,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00351",
+        "recencyDays": 156,
+        "frequency": 4,
+        "monetary": 324.06,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00352",
+        "recencyDays": 380,
+        "frequency": 1,
+        "monetary": 60.32,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00353",
+        "recencyDays": 78,
+        "frequency": 3,
+        "monetary": 806.8,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00354",
+        "recencyDays": 15,
+        "frequency": 3,
+        "monetary": 169.55,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00355",
+        "recencyDays": 114,
+        "frequency": 3,
+        "monetary": 659.38,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00356",
+        "recencyDays": 83,
+        "frequency": 4,
+        "monetary": 446.62,
+        "segment": "Loyal"
+      },
+      {
+        "customerId": "CUST-00357",
+        "recencyDays": 292,
+        "frequency": 3,
+        "monetary": 530.79,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00358",
+        "recencyDays": 7,
+        "frequency": 5,
+        "monetary": 1357.09,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00359",
+        "recencyDays": 34,
+        "frequency": 8,
+        "monetary": 1938.64,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00360",
+        "recencyDays": 30,
+        "frequency": 3,
+        "monetary": 860.88,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00361",
+        "recencyDays": 165,
+        "frequency": 4,
+        "monetary": 481.78,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00362",
+        "recencyDays": 312,
+        "frequency": 3,
+        "monetary": 364.57,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00363",
+        "recencyDays": 53,
+        "frequency": 7,
+        "monetary": 1446.31,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00364",
+        "recencyDays": 138,
+        "frequency": 2,
+        "monetary": 158.61,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00365",
+        "recencyDays": 428,
+        "frequency": 4,
+        "monetary": 849.61,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00366",
+        "recencyDays": 131,
+        "frequency": 4,
+        "monetary": 531.79,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00367",
+        "recencyDays": 533,
+        "frequency": 1,
+        "monetary": 407.26,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00368",
+        "recencyDays": 113,
+        "frequency": 3,
+        "monetary": 603.37,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00369",
+        "recencyDays": 189,
+        "frequency": 1,
+        "monetary": 121.1,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00370",
+        "recencyDays": 131,
+        "frequency": 5,
+        "monetary": 1014.66,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00371",
+        "recencyDays": 10,
+        "frequency": 2,
+        "monetary": 728.28,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00372",
+        "recencyDays": 222,
+        "frequency": 1,
+        "monetary": 128.13,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00373",
+        "recencyDays": 25,
+        "frequency": 5,
+        "monetary": 1167.03,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00374",
+        "recencyDays": 31,
+        "frequency": 5,
+        "monetary": 1118.61,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00375",
+        "recencyDays": 195,
+        "frequency": 3,
+        "monetary": 448.53999999999996,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00376",
+        "recencyDays": 65,
+        "frequency": 4,
+        "monetary": 895.64,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00377",
+        "recencyDays": 134,
+        "frequency": 3,
+        "monetary": 411.35,
+        "segment": "At Risk"
+      },
+      {
+        "customerId": "CUST-00378",
+        "recencyDays": 333,
+        "frequency": 1,
+        "monetary": 52.6,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00379",
+        "recencyDays": 113,
+        "frequency": 4,
+        "monetary": 1018.3299999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00381",
+        "recencyDays": 223,
+        "frequency": 2,
+        "monetary": 941.5699999999999,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00382",
+        "recencyDays": 112,
+        "frequency": 5,
+        "monetary": 880.14,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00383",
+        "recencyDays": 39,
+        "frequency": 2,
+        "monetary": 434.99,
+        "segment": "Repeat"
+      },
+      {
+        "customerId": "CUST-00384",
+        "recencyDays": 78,
+        "frequency": 1,
+        "monetary": 198.25,
+        "segment": "New"
+      },
+      {
+        "customerId": "CUST-00385",
+        "recencyDays": 456,
+        "frequency": 1,
+        "monetary": 216.68,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00386",
+        "recencyDays": 1,
+        "frequency": 11,
+        "monetary": 2194.4,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00387",
+        "recencyDays": 4,
+        "frequency": 5,
+        "monetary": 1837.62,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00388",
+        "recencyDays": 375,
+        "frequency": 2,
+        "monetary": 470.10999999999996,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00389",
+        "recencyDays": 161,
+        "frequency": 6,
+        "monetary": 1271.91,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00390",
+        "recencyDays": 263,
+        "frequency": 4,
+        "monetary": 1017.44,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00391",
+        "recencyDays": 31,
+        "frequency": 6,
+        "monetary": 1445.07,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00392",
+        "recencyDays": 252,
+        "frequency": 3,
+        "monetary": 533.5600000000001,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-00393",
+        "recencyDays": 66,
+        "frequency": 3,
+        "monetary": 868.0,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00394",
+        "recencyDays": 101,
+        "frequency": 6,
+        "monetary": 722.05,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00395",
+        "recencyDays": 34,
+        "frequency": 5,
+        "monetary": 875.46,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00396",
+        "recencyDays": 40,
+        "frequency": 5,
+        "monetary": 1020.9300000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00397",
+        "recencyDays": 108,
+        "frequency": 3,
+        "monetary": 508.18,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00398",
+        "recencyDays": 46,
+        "frequency": 6,
+        "monetary": 1658.85,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00399",
+        "recencyDays": 151,
+        "frequency": 4,
+        "monetary": 815.8,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-00400",
+        "recencyDays": 85,
+        "frequency": 4,
+        "monetary": 517.1999999999999,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-90000",
+        "recencyDays": 58,
+        "frequency": 3,
+        "monetary": 531.21,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-90001",
+        "recencyDays": 31,
+        "frequency": 6,
+        "monetary": 889.77,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-90002",
+        "recencyDays": 15,
+        "frequency": 3,
+        "monetary": 802.29,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-90003",
+        "recencyDays": 30,
+        "frequency": 8,
+        "monetary": 1377.1100000000001,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-90004",
+        "recencyDays": 134,
+        "frequency": 5,
+        "monetary": 643.02,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-90005",
+        "recencyDays": 271,
+        "frequency": 3,
+        "monetary": 844.9,
+        "segment": "Inactive"
+      },
+      {
+        "customerId": "CUST-90006",
+        "recencyDays": 113,
+        "frequency": 3,
+        "monetary": 629.82,
+        "segment": "High Value"
+      },
+      {
+        "customerId": "CUST-90007",
+        "recencyDays": 135,
+        "frequency": 2,
+        "monetary": 423.20000000000005,
+        "segment": "At Risk"
+      }
+    ],
+    "summaries": [
+      {
+        "segment": "High Value",
+        "customerCount": 215,
+        "averageOrderFrequency": 4.706976744186046,
+        "averageRecencyDays": 73.19534883720931,
+        "revenueShare": 0.7412807627077717
+      },
+      {
+        "segment": "Inactive",
+        "customerCount": 101,
+        "averageOrderFrequency": 2.633663366336634,
+        "averageRecencyDays": 302.8910891089109,
+        "revenueShare": 0.17031254536244186
+      },
+      {
+        "segment": "At Risk",
+        "customerCount": 39,
+        "averageOrderFrequency": 2.6923076923076925,
+        "averageRecencyDays": 127.94871794871794,
+        "revenueShare": 0.040456629123049724
+      },
+      {
+        "segment": "Repeat",
+        "customerCount": 28,
+        "averageOrderFrequency": 2.6785714285714284,
+        "averageRecencyDays": 44.0,
+        "revenueShare": 0.03278640533650435
+      },
+      {
+        "segment": "Loyal",
+        "customerCount": 9,
+        "averageOrderFrequency": 4.444444444444445,
+        "averageRecencyDays": 52.666666666666664,
+        "revenueShare": 0.013564751566426829
+      },
+      {
+        "segment": "New",
+        "customerCount": 2,
+        "averageOrderFrequency": 1.0,
+        "averageRecencyDays": 47.0,
+        "revenueShare": 0.001598905903805536
+      }
+    ]
+  }
+}

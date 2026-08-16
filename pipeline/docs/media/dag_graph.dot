@@ -1,0 +1,16 @@
+digraph insightforge_etl {
+  rankdir="LR";
+  node [shape=box, style="rounded,filled", fillcolor="#eef2ff"];
+  "discover_inputs" -> "clean_and_deduplicate";
+  "discover_inputs" -> "validate_schema";
+  "validate_schema" -> "clean_and_deduplicate";
+  "validate_schema" -> "generate_quality_report";
+  "clean_and_deduplicate" -> "generate_quality_report";
+  "clean_and_deduplicate" -> "join_datasets";
+  "join_datasets" -> "calculate_metrics";
+  "join_datasets" -> "export_dashboard_data";
+  "join_datasets" -> "generate_quality_report";
+  "calculate_metrics" -> "export_dashboard_data";
+  "calculate_metrics" -> "generate_quality_report";
+  "export_dashboard_data" -> "generate_quality_report";
+}

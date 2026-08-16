@@ -1,0 +1,41 @@
+{
+  "exactDuplicateRowsRemoved": {
+    "sales": 7,
+    "customers": 0,
+    "reviews": 0
+  },
+  "duplicateOrderIds": {
+    "sales": [
+      "ORD-000037",
+      "ORD-000117",
+      "ORD-000373",
+      "ORD-001043",
+      "ORD-001181",
+      "ORD-001192"
+    ],
+    "reviews": [
+      "ORD-000064",
+      "ORD-000184",
+      "ORD-000238",
+      "ORD-000265",
+      "ORD-000358",
+      "ORD-000446",
+      "ORD-000596",
+      "ORD-000610",
+      "ORD-000733",
+      "ORD-000774",
+      "ORD-000950",
+      "ORD-001031",
+      "ORD-001132",
+      "ORD-001156",
+      "ORD-001183",
+      "ORD-001231",
+      "ORD-001334",
+      "ORD-001425",
+      "ORD-001459",
+      "ORD-001491"
+    ]
+  },
+  "categoryLabelsStandardized": 46,
+  "note": "Exact duplicate rows are removed automatically. Duplicate order IDs with different row content are reported but NOT auto-removed - they may be legitimate multi-line orders, so this is flagged for review rather than silently deleted (see docs/DATA_DICTIONARY.md)."
+}

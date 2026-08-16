@@ -44,12 +44,17 @@ npm run test       # run the Vitest suite (calculation-engine unit tests)
 - **Report Builder** — a print-friendly, exportable summary report.
 - **Optional Python Analyst Toolkit** — notebooks for deeper analysis
   (`analyst-toolkit/`), entirely separate from the core web app.
+- **Optional Airflow ETL Pipeline** — an advanced/developer feature for
+  orchestrated, repeatable ingestion → cleaning → KPI/export batch runs
+  (`pipeline/`), entirely separate from the core web app and from the
+  analyst toolkit.
 
 ## Documentation
 
 See `docs/`: `ARCHITECTURE.md`, `DATA_SCHEMA.md`, `CSV_TEMPLATES.md`,
 `METHODOLOGY.md`, `PRIVACY.md`, `CONFIGURATION.md`, `CUSTOMIZATION.md`,
-`DEPLOYMENT.md`, `LIMITATIONS.md`, `AI_DISCLOSURE.md`, `SUPPORT.md`.
+`DEPLOYMENT.md`, `LIMITATIONS.md`, `AI_DISCLOSURE.md`, `SUPPORT.md`. For the
+optional Airflow pipeline, see `pipeline/README.md` and `pipeline/docs/`.
 
 ## License
 

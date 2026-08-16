@@ -1,0 +1,76 @@
+{
+  "logicalDate": "2026-08-16",
+  "outputDir": "/home/iedrees/Workspace/data-products/insightforge-business-analytics-dashboard/pipeline/output/2026-08-16",
+  "reportPath": "/home/iedrees/Workspace/data-products/insightforge-business-analytics-dashboard/pipeline/output/2026-08-16/01_validation_report.json",
+  "passed": true,
+  "perFile": {
+    "sales": {
+      "rowCount": 1513,
+      "missingColumns": [],
+      "missingValueCounts": {
+        "date": 2,
+        "orderId": 0,
+        "transactionId": 0,
+        "customerId": 0,
+        "product": 0,
+        "category": 0,
+        "quantity": 0,
+        "revenue": 16,
+        "cost": 0,
+        "profit": 0,
+        "discount": 0,
+        "channel": 0,
+        "region": 0,
+        "country": 0,
+        "marketingSource": 0,
+        "campaign": 371,
+        "status": 0
+      },
+      "typeViolations": {
+        "quantity": 0,
+        "revenue": 0,
+        "cost": 0,
+        "profit": 0,
+        "discount": 0,
+        "date": 4
+      },
+      "passed": true
+    },
+    "customers": {
+      "rowCount": 400,
+      "missingColumns": [],
+      "missingValueCounts": {
+        "customerId": 0,
+        "customerName": 0,
+        "region": 0,
+        "country": 0,
+        "latitude": 0,
+        "longitude": 0,
+        "signupDate": 0
+      },
+      "typeViolations": {
+        "latitude": 0,
+        "longitude": 0,
+        "signupDate": 0
+      },
+      "passed": true
+    },
+    "reviews": {
+      "rowCount": 250,
+      "missingColumns": [],
+      "missingValueCounts": {
+        "date": 0,
+        "orderId": 0,
+        "customerId": 0,
+        "product": 0,
+        "rating": 0,
+        "reviewText": 0
+      },
+      "typeViolations": {
+        "rating": 0,
+        "date": 0
+      },
+      "passed": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# Lightweight single-container Airflow setup for local demo/evaluation use -
+# SequentialExecutor + SQLite, not the official multi-container Postgres +
+# Redis + Celery production compose. Appropriate for trying the pipeline out,
+# not for running it at production scale/concurrency.
+#
+# NOTE: authored but not build/run-tested here - see Dockerfile and
+# docs/QUICKSTART.md for the honesty disclosure and the alternative
+# no-Docker Python path that WAS actually exercised.
+#
+# Usage:
+#   docker compose up
+#   Open http://localhost:8080 (a random admin password is generated on
+#   first run and printed to the container logs - see docs/QUICKSTART.md).
+#   Trigger the "insightforge_etl" DAG from the UI.
+
+services:
+  airflow:
+    build: .
+    container_name: insightforge-airflow
+    ports:
+      - "8080:8080"
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+    volumes:
+      - ./dags:/opt/airflow/pipeline/dags
+      - ./transforms:/opt/airflow/pipeline/transforms
+      - ./sample_data:/opt/airflow/pipeline/sample_data
+      - ./output:/opt/airflow/pipeline/output
+    command: standalone

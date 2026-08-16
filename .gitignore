@@ -31,6 +31,19 @@ analyst-toolkit/.pytest_cache
 analyst-toolkit/.ipynb_checkpoints
 analyst-toolkit/**/.ipynb_checkpoints
 
+# Airflow ETL Pipeline
+# (pipeline/output/ is intentionally NOT ignored - like analyst-toolkit/output/,
+# it keeps one committed example run as real evidence for buyers/reviewers.)
+pipeline/.venv
+pipeline/__pycache__
+pipeline/**/__pycache__
+pipeline/.pytest_cache
+pipeline/.airflow-home
+pipeline/logs
+pipeline/*.db
+pipeline/standalone_admin_password.txt
+pipeline/webserver_config.py
+
 # Coverage output
 coverage
 .env
