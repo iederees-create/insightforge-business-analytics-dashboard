@@ -1,0 +1,33 @@
+name: Validate ServicePulse
+on:
+  push:
+    paths:
+      - 'public/servicepulse/**'
+      - 'servicepulse/**'
+      - '.github/workflows/servicepulse-validation.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate browser JavaScript syntax
+        run: |
+          node --check public/servicepulse/app.js
+          node --check public/servicepulse/analytics.js
+          node --check public/servicepulse/portal.js
+          node --check public/servicepulse/config.js
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run analytics ETL unit tests
+        run: python -m unittest discover -s servicepulse/python -p "test_*.py" -v
+      - name: Run reproducible example reporting job
+        run: |
+          python servicepulse/python/etl.py --input servicepulse/sample/sample_leads.csv --out /tmp/servicepulse-reports
+          python -m json.tool /tmp/servicepulse-reports/summary.json > /dev/null
