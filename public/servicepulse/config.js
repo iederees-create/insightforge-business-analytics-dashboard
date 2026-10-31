@@ -1,2 +1,2 @@
-// Public, read-only Supabase key; never include privileged keys or customer data here.
-window.SERVICEPULSE_CONFIG=Object.freeze({supabaseUrl:"https://sijvvbozaufzpjirijhb.supabase.co",supabasePublishableKey:"sb_publishable_Ert4F8Mznj_PeTKeDa_3Pi98GHU"});
+// Public, read-only Supabase publishable key. Data protected by RLS.
+window.SERVICEPULSE_CONFIG=Object.freeze({supabaseUrl:"https://sijvvbozaufzpjirijhb.supabase.co",supabasePublishableKey:"sb_publishable_dWWgbtZUAGVqIEvjMU5DFA_3Pi98GHU"});
