@@ -1,0 +1,9 @@
+date,client,service,source,status,quote_amount,cost_amount
+2026-10-01,Sample Customer A,Home clean,Google,won,1350.00,460.00
+2026-10-02,Sample Customer B,Office clean,Referral,quoted,3200.00,1350.00
+2026-10-03,Sample Customer C,Deep clean,Direct,lost,1950.00,740.00
+2026-10-04,Sample Customer D,Window clean,Facebook,won,850.00,330.00
+2026-10-08,Sample Customer E,Home clean,Google,new,1050.00,430.00
+2026-10-14,Sample Customer F,Office clean,Referral,won,4800.00,1700.00
+2026-10-20,Sample Customer G,Deep clean,Instagram,lost,1550.00,600.00
+2026-10-29,Sample Customer H,Home clean,Google,won,2200.00,800.00
