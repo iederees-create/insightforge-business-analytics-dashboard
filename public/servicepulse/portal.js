@@ -12,7 +12,7 @@ async function initialize(){
   const {createClient}=await import('https://esm.sh/@supabase/supabase-js@2.95.0');
   db=createClient(config.supabaseUrl,config.supabasePublishableKey,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
   $('connectionNotice').textContent='Supabase connected. Customer records are accessible only after sign-in and subject to row-level security.';
-  db.auth.onAuthStateChange((_event,session)=>{void renderSession(session)});
+  db.auth.onAuthStateChange((_event,session)=>{setTimeout(()=>{void renderSession(session)},0)});
   const {data,error}=await db.auth.getSession();if(error)throw error;await renderSession(data.session);
  }catch(err){$('connectionNotice').textContent='Connection failed: '+err.message}
 }
